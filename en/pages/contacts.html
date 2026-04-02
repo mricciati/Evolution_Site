@@ -150,6 +150,22 @@
               placeholder="Describe the project, quantities, required materials, timeline and any specific standard or certification requirement..."></textarea>
           </div>
 
+          <div class="form__group">
+            <label class="form__label" for="attachments">Attachments (optional)</label>
+            <input
+              class="form__input"
+              type="file"
+              id="attachments"
+              name="allegati[]"
+              multiple
+              accept=".pdf,.doc,.docx,.xls,.xlsx,.zip,.dwg,.step,.iges,.jpg,.jpeg,.png"
+              style="padding: 0.75rem; cursor: pointer;"
+            >
+            <p style="font-size:0.75rem;color:var(--text-muted);margin-top:0.5rem">
+              You can attach up to 25 MB. Supported formats: PDF, DOC, DOCX, XLS, XLSX, ZIP, DWG, STEP, IGES, JPG, PNG
+            </p>
+          </div>
+
           <div id="form-message" style="display:none;margin:1rem 0;padding:1rem;border-radius:var(--radius-md);font-size:0.9rem"></div>
 
           <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center" id="submit-btn">Send Request →</button>

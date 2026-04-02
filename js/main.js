@@ -469,7 +469,7 @@ function initLightbox() {
 }
 
 /* ============================================================
-   8. FORM — invio con PHP backend
+   8. FORM — invio con PHP backend e gestione allegati
    ============================================================ */
 (function initForm() {
   const form = document.getElementById('contact-form');
@@ -482,14 +482,33 @@ function initLightbox() {
     success: 'Thank you! We have received your request. You will receive a confirmation email.',
     error: 'Error: ',
     genericError: 'An error occurred. Please try again later.',
-    connectionError: 'Connection error. Please try again later.'
+    connectionError: 'Connection error. Please try again later.',
+    filesSelected: 'files selected'
   } : {
     sending: 'Invio in corso...',
     success: 'Grazie! Abbiamo ricevuto la tua richiesta. Riceverai una conferma via email.',
     error: 'Errore: ',
     genericError: 'Si è verificato un errore. Riprova più tardi.',
-    connectionError: 'Errore di connessione. Riprova più tardi.'
+    connectionError: 'Errore di connessione. Riprova più tardi.',
+    filesSelected: 'file allegati'
   };
+
+  // Gestisci cambio dei file
+  const fileInput = document.getElementById('allegati') || document.getElementById('attachments');
+  if (fileInput) {
+    fileInput.addEventListener('change', e => {
+      const fileCount = e.target.files.length;
+      const totalSize = Array.from(e.target.files).reduce((sum, f) => sum + f.size, 0);
+
+      if (fileCount > 0) {
+        const sizeMB = (totalSize / 1024 / 1024).toFixed(2);
+        const label = isEnglish
+          ? `${fileCount} file (${sizeMB} MB)`
+          : `${fileCount} ${messages.filesSelected} (${sizeMB} MB)`;
+        e.target.title = label;
+      }
+    });
+  }
 
   form.addEventListener('submit', async e => {
     e.preventDefault();

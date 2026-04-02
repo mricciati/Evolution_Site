@@ -1,0 +1,13 @@
+# Proteggi la cartella uploads
+# Consenti download ma non esecuzione di script
+
+# Disabilita esecuzione PHP
+php_flag engine off
+
+# Disabilita altri tipi di script
+<FilesMatch "\.(php|php3|php4|php5|php6|php7|phps|phtml|shtml|pht|phar|phpt|pgif|spl|hphp|ctp|wp|inc|hpl|h|ihtml|htaccess|phtml|ttml)$">
+    deny from all
+</FilesMatch>
+
+# Permetti solo il download di file sicuri
+AddType application/octet-stream .pdf .doc .docx .xls .xlsx .zip .dwg .step .iges .jpg .jpeg .png
