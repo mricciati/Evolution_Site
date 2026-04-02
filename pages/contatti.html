@@ -130,17 +130,12 @@
 
       <!-- Form -->
       <div class="reveal-right">
-        <!-- Form inviato tramite FormSubmit.io -->
         <form
           class="form"
           id="contact-form"
-          action="https://formsubmit.co/info@evolutionengineering.eu"
           method="POST"
           aria-label="Modulo di contatto"
         >
-          <!-- Disabilita reCAPTCHA e reindirizza dopo submit -->
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://www.evolutionengineering.eu/pages/contatti.html?success=true">
           <p class="section__label" style="margin-bottom:1.5rem">Modulo di Contatto</p>
 
           <div class="form__row">
@@ -198,7 +193,9 @@
             ></textarea>
           </div>
 
-          <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center">
+          <div id="form-message" style="display:none;margin:1rem 0;padding:1rem;border-radius:var(--radius-md);font-size:0.9rem"></div>
+
+          <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center" id="submit-btn">
             Invia Richiesta →
           </button>
 

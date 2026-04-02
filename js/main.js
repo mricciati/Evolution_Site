@@ -469,20 +469,94 @@ function initLightbox() {
 }
 
 /* ============================================================
-   8. FORM — feedback visivo (no backend)
+   8. FORM — invio con PHP backend
    ============================================================ */
 (function initForm() {
   const form = document.getElementById('contact-form');
   if (!form) return;
 
-  form.addEventListener('submit', e => {
-    setTimeout(() => {
-      const msg = document.getElementById('form-success');
-      if (msg) {
-        msg.style.display = 'block';
-        setTimeout(() => { msg.style.display = 'none'; }, 5000);
+  // Rileva la lingua dalla URL
+  const isEnglish = window.location.pathname.includes('/en/');
+  const messages = isEnglish ? {
+    sending: 'Sending...',
+    success: 'Thank you! We have received your request. You will receive a confirmation email.',
+    error: 'Error: ',
+    genericError: 'An error occurred. Please try again later.',
+    connectionError: 'Connection error. Please try again later.'
+  } : {
+    sending: 'Invio in corso...',
+    success: 'Grazie! Abbiamo ricevuto la tua richiesta. Riceverai una conferma via email.',
+    error: 'Errore: ',
+    genericError: 'Si è verificato un errore. Riprova più tardi.',
+    connectionError: 'Errore di connessione. Riprova più tardi.'
+  };
+
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+
+    const submitBtn = document.getElementById('submit-btn');
+    const messageDiv = document.getElementById('form-message');
+
+    if (!submitBtn || !messageDiv) return;
+
+    // Disabilita il bottone
+    const originalText = submitBtn.textContent;
+    submitBtn.disabled = true;
+    submitBtn.textContent = messages.sending;
+
+    try {
+      // Raccogli i dati del form
+      const formData = new FormData(form);
+
+      // Determina il percorso al file PHP
+      const currentPath = window.location.pathname;
+      const phpPath = currentPath.includes('/en/') ? '../../send-email.php' : '../send-email.php';
+
+      // Invia il form
+      const response = await fetch(phpPath, {
+        method: 'POST',
+        body: formData
+      });
+
+      const data = await response.json();
+
+      // Mostra il messaggio
+      messageDiv.style.display = 'block';
+
+      if (response.ok && data.success) {
+        messageDiv.style.backgroundColor = '#d4edda';
+        messageDiv.style.color = '#155724';
+        messageDiv.style.border = '1px solid #c3e6cb';
+        messageDiv.textContent = messages.success;
+        form.reset();
+      } else {
+        messageDiv.style.backgroundColor = '#f8d7da';
+        messageDiv.style.color = '#721c24';
+        messageDiv.style.border = '1px solid #f5c6cb';
+        messageDiv.textContent = messages.error + (data.error || messages.genericError);
       }
-    }, 300);
+
+      // Nascondi il messaggio dopo 6 secondi
+      setTimeout(() => {
+        messageDiv.style.display = 'none';
+      }, 6000);
+
+    } catch (error) {
+      console.error('Form error:', error);
+      messageDiv.style.display = 'block';
+      messageDiv.style.backgroundColor = '#f8d7da';
+      messageDiv.style.color = '#721c24';
+      messageDiv.style.border = '1px solid #f5c6cb';
+      messageDiv.textContent = messages.connectionError;
+
+      setTimeout(() => {
+        messageDiv.style.display = 'none';
+      }, 6000);
+    } finally {
+      // Riabilita il bottone
+      submitBtn.disabled = false;
+      submitBtn.textContent = originalText;
+    }
   });
 })();
 
