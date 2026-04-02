@@ -1,0 +1,33 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#bdc3c7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7f8c8d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#95a5a6;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0081c9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#005a8e;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a5568;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d3748;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(100, 110)">
+    <path d="M0 20 Q 50 0, 110 5 L 100 25 Q 50 20, 0 45 Z" fill="url(#metalGrad)" />
+    <path d="M0 55 Q 50 35, 105 40 L 95 60 Q 50 55, 0 80 Z" fill="url(#blueGrad)" />
+    <path d="M5 90 Q 55 70, 95 75 L 85 95 Q 50 90, 15 115 Z" fill="url(#metalGrad)" />
+  </g>
+
+  <text x="230" y="165" font-family="Arial, sans-serif" font-weight="900" font-size="64" letter-spacing="2" fill="url(#textGrad)">EVOLUTION</text>
+
+  <g transform="translate(230, 185)">
+    <line x1="0" y1="-5" x2="25" y2="-5" stroke="#2d3748" stroke-width="1" />
+    <text x="35" y="0" font-family="Verdana, sans-serif" font-size="16" letter-spacing="6" fill="#2d3748">ENGINEERING &amp; SERVICES</text>
+    <line x1="380" y1="-5" x2="405" y2="-5" stroke="#2d3748" stroke-width="1" />
+  </g>
+</svg>

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evolution Engineering & Services - Versione Stampabile</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @media print {
+      body { margin: 0; padding: 0; }
+      .page-break { page-break-after: always; }
+      a { color: #0a192f; text-decoration: none; }
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #1a1f2e;
+      background: #fff;
+      padding: 2cm;
+      max-width: 21cm;
+      margin: 0 auto;
+    }
+
+    /* Copertina */
+    .cover {
+      text-align: center;
+      padding: 4cm 0;
+      border-bottom: 3px solid #0a192f;
+      margin-bottom: 3cm;
+    }
+
+    .cover h1 {
+      font-size: 32px;
+      color: #0a192f;
+      margin-bottom: 0.5cm;
+      font-weight: 700;
+    }
+
+    .cover h2 {
+      font-size: 18px;
+      color: #0081c9;
+      margin-bottom: 0.5cm;
+      font-weight: 600;
+    }
+
+    .cover p {
+      color: #6b7280;
+      font-size: 12px;
+      margin-bottom: 0.3cm;
+    }
+
+    /* Sezioni */
+    .section {
+      margin-bottom: 2cm;
+      page-break-inside: avoid;
+    }
+
+    h2 {
+      font-size: 18px;
+      color: #0081c9;
+      border-bottom: 2px solid #0081c9;
+      padding-bottom: 0.3cm;
+      margin-bottom: 0.5cm;
+      font-weight: 700;
+    }
+
+    h3 {
+      font-size: 13px;
+      color: #0a192f;
+      margin-top: 0.5cm;
+      margin-bottom: 0.2cm;
+      font-weight: 600;
+    }
+
+    p {
+      margin-bottom: 0.4cm;
+      text-align: justify;
+      font-size: 11px;
+      line-height: 1.5;
+    }
+
+    .highlight {
+      background: #f0f4f8;
+      padding: 0.5cm;
+      border-left: 3px solid #0081c9;
+      margin: 0.5cm 0;
+      font-size: 10px;
+    }
+
+    ul, ol {
+      margin-left: 1cm;
+      margin-bottom: 0.4cm;
+      font-size: 10px;
+    }
+
+    li {
+      margin-bottom: 0.2cm;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1cm;
+      margin: 0.5cm 0;
+    }
+
+    .box {
+      padding: 0.5cm;
+      border: 1px solid #e5e7eb;
+      background: #f9fafb;
+      font-size: 10px;
+      border-radius: 4px;
+    }
+
+    .box strong {
+      color: #0081c9;
+      display: block;
+      margin-bottom: 0.2cm;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.5cm 0;
+      font-size: 10px;
+    }
+
+    th {
+      background: #0a192f;
+      color: white;
+      padding: 0.3cm;
+      text-align: left;
+      font-weight: 600;
+    }
+
+    td {
+      padding: 0.3cm;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    tr:nth-child(even) {
+      background: #f9fafb;
+    }
+
+    .page-break {
+      page-break-after: always;
+      height: 1cm;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 9px;
+      color: #6b7280;
+      margin-top: 2cm;
+      padding-top: 1cm;
+      border-top: 1px solid #e5e7eb;
+      page-break-after: avoid;
+    }
+
+    .meta {
+      color: #6b7280;
+      font-size: 9px;
+      margin-top: 0.3cm;
+    }
+
+    .note {
+      background: #fef3c7;
+      padding: 0.4cm;
+      border-left: 3px solid #f59e0b;
+      margin: 0.5cm 0;
+      font-size: 9px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<!-- COPERTINA -->
+<div class="cover">
+  <h1>EVOLUTION ENGINEERING & SERVICES S.R.L.</h1>
+  <h2>Soluzioni Metalliche Integrate</h2>
+  <p>Carpenteria Strutturale | Piping Industriale | Moduli Prefabbricati</p>
+  <div style="margin-top: 3cm; color: #6b7280; font-size: 11px;">
+    <strong>Documento Stampabile per Revisione</strong>
+    <p>Modifica a mano e rispedisci per apportare le correzioni</p>
+  </div>
+</div>
+
+<div class="page-break"></div>
+
+<!-- PAGINA 1: CHI SIAMO -->
+<div class="section">
+  <h2>CHI SIAMO</h2>
+  <p>
+    <strong>Evolution Engineering & Services S.r.l.</strong> è un general contractor specializzato in soluzioni metalliche integrate per EPC contractor e system integrator europei.
+  </p>
+
+  <div class="highlight">
+    <strong>40+ anni di esperienza</strong> nella realizzazione di carpenteria strutturale, piping industriale e moduli prefabbricati per i settori energia, oil & gas, farmaceutico e navale.
+  </div>
+
+  <p><strong>Certificazioni:</strong> In fase di certificazione ISO 9001:2015 e EN 9100:2018</p>
+</div>
+
+<!-- SERVIZI -->
+<div class="section">
+  <h2>SERVIZI PRINCIPALI</h2>
+
+  <h3>Carpenteria Metallica</h3>
+  <p>Strutture in acciaio S275/S355, travi, profili, bullonature. Lavorazioni esecutive conformi a norme internazionali (EN 1090, EN ISO 3834).</p>
+
+  <h3>Piping Industriale</h3>
+  <p>Prefabbricazione e montaggio tubi in acciaio al carbonio e inox. DN25-DN500, saldatura qualificata EN ISO 15614, controlli NDT completi.</p>
+
+  <h3>Skid & Moduli Prefabbricati</h3>
+  <p>Moduli process prefabbricati, strutture modulari, sistemi integrati per settori GMP e oil & gas.</p>
+
+  <h3>Progettazione</h3>
+  <p>CAD 3D, dimensionamento secondo normative internazionali (ASME, EN, PED).</p>
+
+  <h3>Controlli NDT</h3>
+  <p>Radiografie (RT), ultrasuoni (UT), liquidi penetranti (PT), particelle magnetiche (MT). Personale certificato EN ISO 9712 Livello 2-3.</p>
+</div>
+
+<!-- SETTORI -->
+<div class="section">
+  <h2>SETTORI DI APPLICAZIONE</h2>
+  <ul>
+    <li><strong>Energia e Cogenerazione:</strong> Impianti termici, boiler, economizzatori</li>
+    <li><strong>Oil & Gas:</strong> Topsides, manifold, skid process</li>
+    <li><strong>Farmaceutico (GMP):</strong> Impianti sterili, classificati, tracciabili</li>
+    <li><strong>Navale:</strong> Scafi, sezioni di coperta, componenti strutturali</li>
+    <li><strong>Industria Pesante:</strong> Infrastrutture, grandi strutture metalliche</li>
+  </ul>
+</div>
+
+<div class="page-break"></div>
+
+<!-- PAGINA 2: CAPACITÀ PRODUTTIVE -->
+<div class="section">
+  <h2>CAPACITÀ PRODUTTIVE</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Attrezzatura</th>
+        <th>Specifiche Tecniche</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Taglio Plasma CNC</strong></td>
+        <td>Spessori 1-80mm | Piano 3000×12000mm | Tolleranza ±0,5mm</td>
+      </tr>
+      <tr>
+        <td><strong>Taglio Ossigas CNC</strong></td>
+        <td>Spessori 10-250mm | 3 cannelli | Piano 4000×12000mm</td>
+      </tr>
+      <tr>
+        <td><strong>Saldatura SAW</strong></td>
+        <td>Corrente fino a 1200A | Velocità 0.5-2.5 m/min | Filo Ø2-6mm</td>
+      </tr>
+      <tr>
+        <td><strong>Saldatura TIG Orbitale</strong></td>
+        <td>Diametri 6-323mm | Closed-head | EN ISO 15614 | GMP</td>
+      </tr>
+      <tr>
+        <td><strong>Pressa Piegatrice CNC 650T</strong></td>
+        <td>Forza 650T | Lunghezza 6000mm | Spessore max 60mm</td>
+      </tr>
+      <tr>
+        <td><strong>Sabbiatrice Automatica</strong></td>
+        <td>Tunnel 2000×2000mm | Grado Sa 2.5 | Profilo Ry 50-100μm</td>
+      </tr>
+      <tr>
+        <td><strong>Tornitura CNC Ø2000</strong></td>
+        <td>Diametro max 2000mm | Lunghezza 8000mm | Precisione IT6</td>
+      </tr>
+      <tr>
+        <td><strong>Gru a Ponte 20T</strong></td>
+        <td>Portata 20T | Luce 24m | Altezza gancio 10m</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- PORTFOLIO PROGETTI -->
+<div class="section">
+  <h2>PORTFOLIO PROGETTI RECENTI</h2>
+
+  <div class="box">
+    <strong>1. Struttura Portante Turbina Eolica (2024)</strong>
+    Acciaio S355 | EN 1090 EXC3 | Verniciatura C5-M | Nord Europa
+  </div>
+
+  <div class="box">
+    <strong>2. Skid Processo Farmaceutico GMP (2024)</strong>
+    AISI 316L | Piping sanitario | IQ/OQ | Svizzera
+  </div>
+
+  <div class="box">
+    <strong>3. Piping Industriale Impianto Energia (2023)</strong>
+    Acciaio carbonio e inox | Pressioni 40 bar | Germania
+  </div>
+
+  <div class="box">
+    <strong>4. Moduli Prefabbricati Oil & Gas (2023)</strong>
+    Struttura modulare S275 | PED e ATEX | Benelux
+  </div>
+
+  <div class="box">
+    <strong>5. Carpenteria Pesante Infrastrutture (2022)</strong>
+    Travi HEB | Bullonature classe 8.8 | Italia
+  </div>
+
+  <div class="box">
+    <strong>6. Rack Piping Alta Pressione (2022)</strong>
+    Tubi P91 | TIG orbitale | Controlli RT+UT 100% | Francia
+  </div>
+
+  <div class="box">
+    <strong>7. Costruzione Navale - Scafo Acciaio (2023)</strong>
+    Laminati fino a 100mm | Saldatura sottoacqua | Mediterraneo
+  </div>
+
+  <div class="box">
+    <strong>8. Tubazioni Coibentate Termoelettrico (2024)</strong>
+    Acciaio P11 | Coibentazione ceramica 50mm | Pressioni 100 bar
+  </div>
+</div>
+
+<div class="page-break"></div>
+
+<!-- PAGINA 3: QUALITÀ E NORMATIVE -->
+<div class="section">
+  <h2>QUALITÀ E NORMATIVE</h2>
+
+  <h3>Certificazioni in corso</h3>
+  <ul>
+    <li>ISO 9001:2015 - Qualità e processi</li>
+    <li>EN 9100:2018 - Aerospaziale (applicabile a settori industriali critici)</li>
+  </ul>
+
+  <h3>Normative di Riferimento</h3>
+  <ul>
+    <li>EN 1090 - Carpenteria metallica strutturale</li>
+    <li>EN ISO 3834 - Qualità saldature</li>
+    <li>EN ISO 15614 - Qualificazione procedimenti di saldatura</li>
+    <li>ASME IX - Qualificazione saldatori</li>
+    <li>PED 2014/68/UE - Attrezzature in pressione</li>
+    <li>EN ISO 9712 - Personale NDT certificato</li>
+  </ul>
+
+  <h3>Controlli Qualità</h3>
+  <div class="highlight">
+    Processi documentati | Controllo e ispezione | Miglioramento continuo | Personale qualificato | Tracciabilità materiali | Orientamento al cliente
+  </div>
+</div>
+
+<!-- CONTATTI -->
+<div class="section">
+  <h2>CONTATTI</h2>
+
+  <p>
+    <strong>Email:</strong> info@evolutionengineering.eu<br>
+    <strong>Sito Web:</strong> www.evolutionengineering.eu
+  </p>
+
+  <div class="note">
+    <strong>Istruzioni:</strong> Stampa questo documento, effettua le modifiche a mano, scansionalo e rispedisci per correzioni o approvazioni.
+  </div>
+</div>
+
+<div class="footer">
+  <p>© 2025 Evolution Engineering & Services S.r.l. — Tutti i diritti riservati</p>
+  <p>Documento stampabile generato automaticamente | Versione del 02 Aprile 2025</p>
+</div>
+
+</body>
+</html>

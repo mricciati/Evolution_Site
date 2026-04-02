@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -lh \"/c/Users/UTENTE/Desktop/Evolution Engeenering & Service/Sito Web/evolution-engineering-website/Foto Fonti/\")"
+    ]
+  }
+}

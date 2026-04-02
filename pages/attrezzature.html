@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attrezzature & Capacità Produttiva | Evolution Engineering & Services S.r.l.</title>
+  <meta name="description" content="Attrezzature e capacità produttiva di Evolution Engineering: taglio CNC, saldatura orbitale, tornitura, sabbiatrice, NDT. Officina 5.000 m².">
+  <link rel="canonical" href="https://www.evolutionengineering.eu/pages/attrezzature.html">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%23c8a84b'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial Black' font-size='18' font-weight='900' fill='%230a0d10'>EE</text></svg>">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="../index.html" class="nav__logo">
+      <svg class="nav__logo-mark" width="50" height="50" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="metalGrad-nav-at" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#bdc3c7;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#7f8c8d;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#95a5a6;stop-opacity:1" />
+          </linearGradient>
+          <linearGradient id="blueGrad-nav-at" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#0081c9;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#005a8e;stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <g transform="translate(20, 35)">
+          <path d="M0 20 Q 50 0, 110 5 L 100 25 Q 50 20, 0 45 Z" fill="url(#metalGrad-nav-at)" />
+          <path d="M0 55 Q 50 35, 105 40 L 95 60 Q 50 55, 0 80 Z" fill="url(#blueGrad-nav-at)" />
+          <path d="M5 90 Q 55 70, 95 75 L 85 95 Q 50 90, 15 115 Z" fill="url(#metalGrad-nav-at)" />
+        </g>
+      </svg>
+      <div class="nav__logo-text">
+        <strong>Evolution Engineering</strong>
+        <span>&amp; Services S.r.l.</span>
+      </div>
+    </a>
+    <ul class="nav__links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="servizi.html">Servizi</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="attrezzature.html" class="active">Attrezzature</a></li>
+      <li><a href="certificazioni.html">Certificazioni</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+    <div class="nav__right">
+      <div class="nav__lang">
+        <button class="lang-btn active" data-lang="it">IT</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="contatti.html" class="btn btn--primary btn--sm">Richiedi Preventivo</a>
+    </div>
+    <button class="nav__hamburger" aria-label="Apri menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="nav__mobile">
+    <a href="../index.html">Home</a><a href="servizi.html">Servizi</a><a href="portfolio.html">Portfolio</a>
+    <a href="attrezzature.html">Attrezzature</a><a href="certificazioni.html">Certificazioni</a><a href="contatti.html">Contatti</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb"><a href="../index.html">Home</a><span>›</span><span>Attrezzature</span></nav>
+    <p class="page-hero__label">Capacità Produttiva</p>
+    <h1>Attrezzature & Macchinari</h1>
+    <p>La nostra officina di 5.000 m² è equipaggiata con tecnologie all'avanguardia per garantire qualità, precisione e produttività.</p>
+  </div>
+</section>
+
+<!-- STATS OFFICINA -->
+<section class="section section--alt">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem" class="reveal">
+      <div class="stat-card">
+        <span class="stat-card__num">5.000</span>
+        <span class="stat-card__label">m² officina</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__num">20T</span>
+        <span class="stat-card__label">Carroponte max</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__num">250mm</span>
+        <span class="stat-card__label">Spessore taglio max</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__num">100%</span>
+        <span class="stat-card__label">NDT in-house</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ATTREZZATURE GRID — da equipment.json via JS -->
+<section class="section" aria-labelledby="equip-title">
+  <div class="container">
+    <div class="section__header reveal">
+      <p class="section__label">Parco Macchine</p>
+      <h2 id="equip-title">Le Nostre Attrezzature</h2>
+      <span class="gold-line"></span>
+      <p class="section__desc">Tecnologie CNC di ultima generazione per taglio, saldatura, formatura, finitura superficiale e controllo qualità.</p>
+    </div>
+
+    <!-- Popolato da main.js via data/equipment.json -->
+    <div class="equipment__grid" id="equipment-grid">
+      <div style="grid-column:1/-1;text-align:center;padding:3rem;color:var(--text-muted)">
+        ⏳ Caricamento attrezzature...
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <p class="section__label">Richiedi Informazioni</p>
+      <h2>Vuoi Sapere Se Possiamo Lavorare il Tuo Componente?</h2>
+      <p>Inviaci le specifiche tecniche e le dimensioni: valuteremo subito la fattibilità.</p>
+      <div class="cta-banner__btns">
+        <a href="contatti.html" class="btn btn--primary">Contattaci</a>
+        <a href="servizi.html" class="btn btn--outline">I Nostri Servizi</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="../index.html" class="nav__logo" style="margin-bottom:1rem;display:inline-flex">
+          <svg class="nav__logo-mark" width="50" height="50" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="metalGrad-ft-at" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color:#bdc3c7;stop-opacity:1" />
+                <stop offset="50%" style="stop-color:#7f8c8d;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#95a5a6;stop-opacity:1" />
+              </linearGradient>
+              <linearGradient id="blueGrad-ft-at" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color:#0081c9;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#005a8e;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+            <g transform="translate(20, 35)">
+              <path d="M0 20 Q 50 0, 110 5 L 100 25 Q 50 20, 0 45 Z" fill="url(#metalGrad-ft-at)" />
+              <path d="M0 55 Q 50 35, 105 40 L 95 60 Q 50 55, 0 80 Z" fill="url(#blueGrad-ft-at)" />
+              <path d="M5 90 Q 55 70, 95 75 L 85 95 Q 50 90, 15 115 Z" fill="url(#metalGrad-ft-at)" />
+            </g>
+          </svg>
+        </a>
+        <p>General contractor per carpenteria metallica, piping industriale e forniture chiavi in mano.</p>
+        <p style="font-size:0.82rem;color:var(--text-muted)">info@evolutionengineering.eu</p>
+      </div>
+      <div class="footer__col">
+        <h4>Servizi</h4>
+        <ul>
+          <li><a href="servizi.html">Carpenteria Metallica</a></li>
+          <li><a href="servizi.html">Piping Industriale</a></li>
+          <li><a href="servizi.html">Skid & Moduli</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Azienda</h4>
+        <ul>
+          <li><a href="../index.html#about">Chi Siamo</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="certificazioni.html">Certificazioni</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Lingua</h4>
+        <ul>
+          <li><a href="../index.html">🇮🇹 Italiano</a></li>
+          <li><a href="../en/index.html">🇬🇧 English</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 Evolution Engineering & Services S.r.l. — Tutti i diritti riservati</p>
+      <div class="footer__certifications">
+        <span>In fase di certificazione</span><span>ISO 9001:2015</span><span>EN 9100:2018</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

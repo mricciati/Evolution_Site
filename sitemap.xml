@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage IT -->
+  <url>
+    <loc>https://www.evolutionengineering.eu/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.evolutionengineering.eu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.evolutionengineering.eu/en/"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Homepage EN -->
+  <url>
+    <loc>https://www.evolutionengineering.eu/en/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.evolutionengineering.eu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.evolutionengineering.eu/en/"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Servizi IT -->
+  <url>
+    <loc>https://www.evolutionengineering.eu/pages/servizi.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.evolutionengineering.eu/pages/servizi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.evolutionengineering.eu/en/pages/services.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Services EN -->
+  <url>
+    <loc>https://www.evolutionengineering.eu/en/pages/services.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Portfolio IT -->
+  <url>
+    <loc>https://www.evolutionengineering.eu/pages/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.evolutionengineering.eu/pages/portfolio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.evolutionengineering.eu/en/pages/portfolio.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Portfolio EN -->
+  <url>
+    <loc>https://www.evolutionengineering.eu/en/pages/portfolio.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Attrezzature IT -->
+  <url>
+    <loc>https://www.evolutionengineering.eu/pages/attrezzature.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.evolutionengineering.eu/pages/attrezzature.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.evolutionengineering.eu/en/pages/equipment.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Equipment EN -->
+  <url>
+    <loc>https://www.evolutionengineering.eu/en/pages/equipment.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Certificazioni IT -->
+  <url>
+    <loc>https://www.evolutionengineering.eu/pages/certificazioni.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.evolutionengineering.eu/pages/certificazioni.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.evolutionengineering.eu/en/pages/certifications.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Certifications EN -->
+  <url>
+    <loc>https://www.evolutionengineering.eu/en/pages/certifications.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contatti IT -->
+  <url>
+    <loc>https://www.evolutionengineering.eu/pages/contatti.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.evolutionengineering.eu/pages/contatti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.evolutionengineering.eu/en/pages/contacts.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contacts EN -->
+  <url>
+    <loc>https://www.evolutionengineering.eu/en/pages/contacts.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

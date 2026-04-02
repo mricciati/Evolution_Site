@@ -1,0 +1,94 @@
+{
+  "equipment": [
+    {
+      "id": 1,
+      "name_it": "Taglio Plasma CNC",
+      "name_en": "CNC Plasma Cutting",
+      "category": "taglio",
+      "specs": "Spessori: 1–80 mm | Piano: 3000×12000 mm | Tolleranza: ±0,5 mm",
+      "image": "",
+      "description_it": "Tavolo plasma CNC ad alta definizione per taglio di lamiere in acciaio al carbonio, inox e alluminio. Software nesting integrato per ottimizzazione materiale.",
+      "description_en": "High-definition CNC plasma table for cutting carbon steel, stainless and aluminium sheets. Integrated nesting software for material optimisation."
+    },
+    {
+      "id": 2,
+      "name_it": "Taglio Ossigas CNC",
+      "name_en": "CNC Oxy-fuel Cutting",
+      "category": "taglio",
+      "specs": "Spessori: 10–250 mm | n° cannelli: 3 | Piano: 4000×12000 mm",
+      "image": "",
+      "description_it": "Sistema di taglio ossigas a controllo numerico per profili di grande spessore. Ideale per carpenteria pesante e pretaglio di travi strutturali.",
+      "description_en": "Numerically controlled oxy-fuel cutting system for thick sections. Ideal for heavy fabrication and structural beam pre-cutting."
+    },
+    {
+      "id": 3,
+      "name_it": "Saldatura SAW (Arco Sommerso)",
+      "name_en": "SAW (Submerged Arc Welding)",
+      "category": "saldatura",
+      "specs": "Corrente: fino a 1200A | Velocità: 0.5–2.5 m/min | Filo: Ø 2–6 mm",
+      "image": "",
+      "description_it": "Impianto di saldatura ad arco sommerso per giunzioni longitudinali e circolari di alta qualità su grandi componenti strutturali e pressure vessels.",
+      "description_en": "Submerged arc welding system for high-quality longitudinal and circumferential joints on large structural components and pressure vessels."
+    },
+    {
+      "id": 4,
+      "name_it": "Saldatura TIG Orbitale",
+      "name_en": "Orbital TIG Welding",
+      "category": "saldatura",
+      "specs": "Diametri: 6–323 mm | Controllo closed-head | Qualificata EN ISO 15614",
+      "image": "",
+      "description_it": "Sistema TIG orbitale automatizzato per piping sanitario e industriale. Garantisce ripetibilità e tracciabilità completa. Certificata per applicazioni farmaceutiche GMP.",
+      "description_en": "Automated orbital TIG system for sanitary and industrial piping. Ensures full repeatability and traceability. Certified for GMP pharmaceutical applications."
+    },
+    {
+      "id": 5,
+      "name_it": "Pressa Piegatrice CNC 650T",
+      "name_en": "650T CNC Press Brake",
+      "category": "formatura",
+      "specs": "Forza: 650 tonnellate | Lunghezza: 6000 mm | Spessore max: 60 mm",
+      "image": "",
+      "description_it": "Pressa piegatrice CNC ad alta precisione per lamiere di grandi dimensioni. Controllo backgauge automatico, tolleranza angolare ±0,2°.",
+      "description_en": "High-precision CNC press brake for large sheets. Automatic backgauge control, angular tolerance ±0.2°."
+    },
+    {
+      "id": 6,
+      "name_it": "Sabbiatrice Automatica",
+      "name_en": "Automatic Shot-Blasting",
+      "category": "finitura",
+      "specs": "Tunnel: 2000×2000 mm | Grado: Sa 2.5 | Profilo: Ry 50–100 μm",
+      "image": "",
+      "description_it": "Tunnel di sabbiatura automatica a turbine per preparazione superficiale di strutture e componenti metallici. Cicli di verniciatura industriale fino a C5-M.",
+      "description_en": "Automatic turbine shot-blasting tunnel for surface preparation of metal structures and components. Industrial painting cycles up to C5-M."
+    },
+    {
+      "id": 7,
+      "name_it": "Tornitura CNC Ø2000 mm",
+      "name_en": "CNC Turning Ø2000 mm",
+      "category": "lavorazione-cnc",
+      "specs": "Diametro max: 2000 mm | Lunghezza: 8000 mm | Precisione: IT6",
+      "image": "",
+      "description_it": "Tornio CNC di grandi dimensioni per lavorazione di componenti cilindrici di grande diametro: flange, virole, alberi e componenti per pressure vessel.",
+      "description_en": "Large CNC lathe for machining large-diameter cylindrical components: flanges, shells, shafts and pressure vessel components."
+    },
+    {
+      "id": 8,
+      "name_it": "Gru a Ponte 20T",
+      "name_en": "20T Overhead Crane",
+      "category": "movimentazione",
+      "specs": "Portata: 20 tonnellate | Luce: 24 m | Altezza gancio: 10 m",
+      "image": "",
+      "description_it": "Carroponte da 20 tonnellate per movimentazione di strutture di grande peso all'interno dell'officina. Gestione sicura di montaggi complessi.",
+      "description_en": "20-tonne overhead crane for moving heavy structures inside the workshop. Safe handling of complex assemblies."
+    },
+    {
+      "id": 9,
+      "name_it": "Laboratorio NDT",
+      "name_en": "NDT Laboratory",
+      "category": "controlli",
+      "specs": "RT, UT, PT, MT, VT | Certificazione EN ISO 9712 Lev. 2–3",
+      "image": "",
+      "description_it": "Laboratorio interno NDT con personale certificato EN ISO 9712 per controlli radiografici (RT), ultrasonici (UT), liquidi penetranti (PT) e particelle magnetiche (MT).",
+      "description_en": "In-house NDT lab with EN ISO 9712 certified personnel for radiographic (RT), ultrasonic (UT), penetrant (PT) and magnetic particle (MT) testing."
+    }
+  ]
+}

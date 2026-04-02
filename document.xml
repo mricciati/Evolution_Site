@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp15="http://schemas.microsoft.com/office/word/2012/wordprocessingDrawing" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wpps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+  <w:body>
+    <w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t>EVOLUTION ENGINEERING &amp; SERVICES S.R.L.</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Heading2"/></w:pPr><w:r><w:t>Soluzioni Metalliche Integrate</w:t></w:r></w:p>
+    <w:p><w:r><w:t>Carpenteria Strutturale | Piping Industriale | Moduli Prefabbricati</w:t></w:r></w:p>
+    <w:p><w:r><w:br/></w:r></w:p>
+    <w:p><w:r><w:t>Documento Word per Revisione - Modifica, salva e rispedisci</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pageBreakBefore/></w:pPr></w:p>
+
+    <w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t>CHI SIAMO</w:t></w:r></w:p>
+    <w:p><w:r><w:t>Evolution Engineering &amp; Services S.r.l. è un general contractor specializzato in soluzioni metalliche integrate per EPC contractor e system integrator europei.</w:t></w:r></w:p>
+    <w:p><w:r><w:t>40+ anni di esperienza nella realizzazione di carpenteria strutturale, piping industriale e moduli prefabbricati per i settori energia, oil &amp; gas, farmaceutico e navale.</w:t></w:r></w:p>
+    <w:p><w:r><w:t>Certificazioni in corso: ISO 9001:2015 e EN 9100:2018</w:t></w:r></w:p>
+
+    <w:p><w:pPr><w:pStyle w:val="Heading2"/></w:pPr><w:r><w:t>SERVIZI PRINCIPALI</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Carpenteria Metallica: </w:t></w:r><w:r><w:t>Strutture in acciaio S275/S355, travi, profili, bullonature</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Piping Industriale: </w:t></w:r><w:r><w:t>Prefabbricazione e montaggio tubi acciaio/inox, DN25-DN500</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Skid &amp; Moduli: </w:t></w:r><w:r><w:t>Moduli process prefabbricati, strutture modulari</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Progettazione: </w:t></w:r><w:r><w:t>CAD 3D, dimensionamento secondo normative ASME, EN, PED</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Controlli NDT: </w:t></w:r><w:r><w:t>Radiografie (RT), ultrasuoni (UT), liquidi penetranti (PT), particelle magnetiche (MT)</w:t></w:r></w:p>
+
+    <w:p><w:pPr><w:pStyle w:val="Heading2"/></w:pPr><w:r><w:t>SETTORI DI APPLICAZIONE</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Energia e Cogenerazione: </w:t></w:r><w:r><w:t>Impianti termici, boiler, economizzatori</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Oil &amp; Gas: </w:t></w:r><w:r><w:t>Topsides, manifold, skid process</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Farmaceutico (GMP): </w:t></w:r><w:r><w:t>Impianti sterili, classificati, tracciabili</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Navale: </w:t></w:r><w:r><w:t>Scafi, sezioni di coperta, componenti strutturali</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Industria Pesante: </w:t></w:r><w:r><w:t>Infrastrutture, grandi strutture metalliche</w:t></w:r></w:p>
+
+    <w:p><w:pPr><w:pageBreakBefore/></w:pPr></w:p>
+
+    <w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t>CAPACITÀ PRODUTTIVE</w:t></w:r></w:p>
+
+    <w:tbl>
+      <w:tblPr><w:tblW w:w="9360" w:type="dxa"/><w:tblBorders><w:top w:val="single" w:sz="12" w:space="0" w:color="CCCCCC"/><w:left w:val="single" w:sz="12" w:space="0" w:color="CCCCCC"/><w:bottom w:val="single" w:sz="12" w:space="0" w:color="CCCCCC"/><w:right w:val="single" w:sz="12" w:space="0" w:color="CCCCCC"/><w:insideH w:val="single" w:sz="12" w:space="0" w:color="CCCCCC"/><w:insideV w:val="single" w:sz="12" w:space="0" w:color="CCCCCC"/></w:tblBorders><w:tblCellMar><w:top w:w="80" w:type="dxa"/><w:left w:w="120" w:type="dxa"/><w:bottom w:w="80" w:type="dxa"/><w:right w:w="120" w:type="dxa"/></w:tblCellMar></w:tblPr>
+      <w:tr><w:trPr><w:trHeight w:val="240" w:type="auto"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="3000" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="0A192F"/></w:tcPr><w:p><w:r><w:rPr><w:b/><w:color w:val="FFFFFF"/></w:rPr><w:t>Attrezzatura</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6360" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="0A192F"/></w:tcPr><w:p><w:r><w:rPr><w:b/><w:color w:val="FFFFFF"/></w:rPr><w:t>Specifiche</w:t></w:r></w:p></w:tc></w:tr>
+      <w:tr><w:tc><w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Taglio Plasma CNC</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6360" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Spessori 1-80mm | Piano 3000×12000mm | Tolleranza ±0,5mm</w:t></w:r></w:p></w:tc></w:tr>
+      <w:tr><w:tc><w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Taglio Ossigas CNC</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6360" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Spessori 10-250mm | 3 cannelli | Piano 4000×12000mm</w:t></w:r></w:p></w:tc></w:tr>
+      <w:tr><w:tc><w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Saldatura SAW</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6360" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Corrente fino a 1200A | Velocità 0.5-2.5 m/min</w:t></w:r></w:p></w:tc></w:tr>
+      <w:tr><w:tc><w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Saldatura TIG Orbitale</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6360" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Diametri 6-323mm | EN ISO 15614 | GMP certificata</w:t></w:r></w:p></w:tc></w:tr>
+      <w:tr><w:tc><w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Pressa Piegatrice 650T</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6360" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Forza 650T | Lunghezza 6000mm | Spessore 60mm</w:t></w:r></w:p></w:tc></w:tr>
+      <w:tr><w:tc><w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Sabbiatrice Automatica</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6360" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Tunnel 2000×2000mm | Grado Sa 2.5</w:t></w:r></w:p></w:tc></w:tr>
+      <w:tr><w:tc><w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Tornitura CNC Ø2000</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6360" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Diametro max 2000mm | Lunghezza 8000mm</w:t></w:r></w:p></w:tc></w:tr>
+      <w:tr><w:tc><w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Gru a Ponte 20T</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6360" w:type="dxa"/></w:tcPr><w:p><w:r><w:t>Portata 20T | Luce 24m | Altezza 10m</w:t></w:r></w:p></w:tc></w:tr>
+    </w:tbl>
+
+    <w:p><w:pPr><w:pageBreakBefore/></w:pPr></w:p>
+
+    <w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t>PORTFOLIO PROGETTI</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Struttura Portante Turbina Eolica (2024)</w:t></w:r><w:br/><w:r><w:t>Acciaio S355 | EN 1090 EXC3 | Verniciatura C5-M</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Skid Processo Farmaceutico GMP (2024)</w:t></w:r><w:br/><w:r><w:t>AISI 316L | Piping sanitario | IQ/OQ</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Piping Industriale Impianto Energia (2023)</w:t></w:r><w:br/><w:r><w:t>Acciaio carbonio e inox | Pressioni 40 bar</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Moduli Prefabbricati Oil &amp; Gas (2023)</w:t></w:r><w:br/><w:r><w:t>Struttura modulare S275 | PED e ATEX</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Carpenteria Pesante Infrastrutture (2022)</w:t></w:r><w:br/><w:r><w:t>Travi HEB | Bullonature classe 8.8</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Rack Piping Alta Pressione (2022)</w:t></w:r><w:br/><w:r><w:t>Tubi P91 | TIG orbitale | Controlli RT+UT 100%</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Costruzione Navale - Scafo Acciaio (2023)</w:t></w:r><w:br/><w:r><w:t>Laminati fino a 100mm | Saldatura sottoacqua</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Tubazioni Coibentate Termoelettrico (2024)</w:t></w:r><w:br/><w:r><w:t>Acciaio P11 | Coibentazione ceramica 50mm</w:t></w:r></w:p>
+
+    <w:p><w:pPr><w:pageBreakBefore/></w:pPr></w:p>
+
+    <w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t>QUALITÀ E NORMATIVE</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Heading2"/></w:pPr><w:r><w:t>Certificazioni</w:t></w:r></w:p>
+    <w:p><w:r><w:t>ISO 9001:2015 - Qualità e processi</w:t></w:r></w:p>
+    <w:p><w:r><w:t>EN 9100:2018 - Aerospaziale</w:t></w:r></w:p>
+
+    <w:p><w:pPr><w:pStyle w:val="Heading2"/></w:pPr><w:r><w:t>Normative di Riferimento</w:t></w:r></w:p>
+    <w:p><w:r><w:t>EN 1090 - Carpenteria metallica strutturale</w:t></w:r></w:p>
+    <w:p><w:r><w:t>EN ISO 3834 - Qualità saldature</w:t></w:r></w:p>
+    <w:p><w:r><w:t>EN ISO 15614 - Qualificazione procedimenti di saldatura</w:t></w:r></w:p>
+    <w:p><w:r><w:t>ASME IX - Qualificazione saldatori</w:t></w:r></w:p>
+    <w:p><w:r><w:t>PED 2014/68/UE - Attrezzature in pressione</w:t></w:r></w:p>
+    <w:p><w:r><w:t>EN ISO 9712 - Personale NDT certificato</w:t></w:r></w:p>
+
+    <w:p><w:pPr><w:pStyle w:val="Heading2"/></w:pPr><w:r><w:t>CONTATTI</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Email: </w:t></w:r><w:r><w:t>info@evolutionengineering.eu</w:t></w:r></w:p>
+    <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Sito Web: </w:t></w:r><w:r><w:t>www.evolutionengineering.eu</w:t></w:r></w:p>
+
+    <w:p><w:r><w:t>© 2025 Evolution Engineering &amp; Services S.r.l. — Tutti i diritti riservati</w:t></w:r></w:p>
+  </w:body>
+</w:document>
