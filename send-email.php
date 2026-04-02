@@ -110,6 +110,11 @@ if (!empty($errors)) {
 // Email destinatario
 $recipient = 'info@evolutionengineering.eu';
 
+// Genera URL base per i download (usato nelle email)
+$protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
+$host = $_SERVER['HTTP_HOST'];
+$base_url = $protocol . '://' . $host;
+
 // Costruisci il corpo dell'email
 $email_body = "=== NUOVO MESSAGGIO DAL FORM DI CONTATTO ===\n\n";
 $email_body .= "NOME: $nome\n";
@@ -121,11 +126,13 @@ $email_body .= "OGGETTO: " . (!empty($oggetto) ? $oggetto : 'Senza oggetto') . "
 $email_body .= "--- MESSAGGIO ---\n";
 $email_body .= $messaggio . "\n\n";
 
-// Aggiungi informazioni sui file allegati
+// Aggiungi informazioni sui file allegati con link di download
 if (!empty($uploaded_files)) {
     $email_body .= "--- ALLEGATI ---\n";
     foreach ($uploaded_files as $file) {
+        $download_link = $base_url . '/download.php?file=' . urlencode($file['saved_name']);
         $email_body .= "- " . $file['original_name'] . " (" . $file['size'] . " KB)\n";
+        $email_body .= "  Scarica: " . $download_link . "\n";
     }
     $email_body .= "\n";
 }
@@ -161,7 +168,9 @@ $confirmation_body .= "- Settore: " . (!empty($settore) ? $settore : 'Non specif
 if (!empty($uploaded_files)) {
     $confirmation_body .= "\nAllegati ricevuti:\n";
     foreach ($uploaded_files as $file) {
+        $download_link = $base_url . '/download.php?file=' . urlencode($file['saved_name']);
         $confirmation_body .= "- " . $file['original_name'] . "\n";
+        $confirmation_body .= "  Scarica: " . $download_link . "\n";
     }
 }
 
