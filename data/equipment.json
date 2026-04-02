@@ -5,100 +5,140 @@
       "name_it": "Taglio Plasma CNC",
       "name_en": "CNC Plasma Cutting",
       "category": "taglio",
-      "specs": "Spessori: 1–50 mm | Piano: 3000×12000 mm | Tolleranza: ±0,5 mm",
+      "specs": "Spessori: 1–50 mm | Piano: 3000×18000 mm | Tolleranza: ±0,5 mm",
       "image": "",
       "description_it": "Tavolo plasma CNC ad alta definizione per taglio di lamiere in acciaio al carbonio, inox e alluminio. Software nesting integrato per ottimizzazione materiale.",
-      "description_en": "High-definition CNC plasma table for cutting carbon steel, stainless and aluminium sheets. Integrated nesting software for material optimisation."
+      "description_en": "High-definition CNC plasma table for cutting carbon steel, stainless steel and aluminium sheets. Integrated nesting software for material optimisation."
     },
     {
       "id": 2,
       "name_it": "Taglio Ossigas CNC",
-      "name_en": "CNC Oxy-fuel Cutting",
+      "name_en": "CNC Oxy-Fuel Cutting",
       "category": "taglio",
-      "specs": "Spessori: 10–250 mm | n° cannelli: 4 | Piano: 4000×12000 mm",
+      "specs": "Spessori: 10–250 mm | N° cannelli: 4 | Piano: 3000×18000 mm",
       "image": "",
-      "description_it": "Sistema di taglio ossigas a controllo numerico per profili di grande spessore. Ideale per carpenteria pesante e pretaglio di travi strutturali.",
-      "description_en": "Numerically controlled oxy-fuel cutting system for thick sections. Ideal for heavy fabrication and structural beam pre-cutting."
+      "description_it": "Sistema di taglio ossigas a controllo numerico con 4 cannelli per profili di grande spessore. Ideale per carpenteria pesante e pretaglio di travi strutturali.",
+      "description_en": "Numerically controlled oxy-fuel cutting system with 4 torches for thick sections. Ideal for heavy fabrication and structural beam pre-cutting."
     },
     {
       "id": 3,
-      "name_it": "Saldatura SAW (Arco Sommerso)",
-      "name_en": "SAW (Submerged Arc Welding)",
+      "name_it": "Saldatura SAW",
+      "name_en": "SAW Welding",
       "category": "saldatura",
-      "specs": "Corrente: fino a 500A | Velocità: 0.5–2.5 m/min | Filo: Ø 2–6 mm",
+      "specs": "Corrente: fino a 500A",
       "image": "",
-      "description_it": "Impianto di saldatura ad arco sommerso per giunzioni longitudinali e circolari di alta qualità su grandi componenti strutturali e pressure vessels.",
-      "description_en": "Submerged arc welding system for high-quality longitudinal and circumferential joints on large structural components and pressure vessels."
+      "description_it": "Impianto di saldatura SAW per giunzioni longitudinali e circolari di alta qualità su componenti strutturali e pressure vessel.",
+      "description_en": "SAW welding system for high-quality longitudinal and circumferential joints on structural components and pressure vessels."
     },
     {
       "id": 4,
       "name_it": "Saldatura ad Arco Sommerso",
       "name_en": "Submerged Arc Welding",
       "category": "saldatura",
-      "specs": "Corrente: fino a 1250A | Velocità: 0.5–2.5 m/min",
+      "specs": "Corrente: fino a 1250A",
       "image": "",
-      "description_it": "Sistema di saldatura ad arco sommerso per giunzioni di grande spessore con elevatissima qualità e penetrazione profonda.",
-      "description_en": "Submerged arc welding system for thick-section joints with excellent quality and deep penetration."
+      "description_it": "Sistema di saldatura ad arco sommerso ad alta potenza per giunzioni di grande spessore con elevata qualità e penetrazione profonda.",
+      "description_en": "High-power submerged arc welding system for thick-section joints with excellent quality and deep penetration."
     },
     {
       "id": 5,
-      "name_it": "Saldatura TIG Orbitale",
-      "name_en": "Orbital TIG Welding",
-      "category": "saldatura",
-      "specs": "Diametri: 6–323 mm | Controllo closed-head | Qualificata EN ISO 15614",
+      "name_it": "Posizionatori a Rulli",
+      "name_en": "Roller Positioners",
+      "category": "movimentazione",
+      "specs": "Portata: fino a 35 T",
       "image": "",
-      "description_it": "Sistema TIG orbitale automatizzato per piping sanitario e industriale. Garantisce ripetibilità e tracciabilità completa. Certificata per applicazioni farmaceutiche GMP.",
-      "description_en": "Automated orbital TIG system for sanitary and industrial piping. Ensures full repeatability and traceability. Certified for GMP pharmaceutical applications."
+      "description_it": "Posizionatori a rulli per la rotazione e il supporto di componenti cilindrici durante le operazioni di saldatura e assemblaggio, con portata fino a 35 tonnellate.",
+      "description_en": "Roller positioners for rotating and supporting cylindrical components during welding and assembly operations, with capacity up to 35 tonnes."
     },
     {
       "id": 6,
-      "name_it": "Pressa Piegatrice CNC 650T",
-      "name_en": "650T CNC Press Brake",
-      "category": "formatura",
-      "specs": "Forza: 650 tonnellate | Lunghezza: 6000 mm | Spessore max: 60 mm",
+      "name_it": "Saldatura con Isola Robotizzata",
+      "name_en": "Robotic Welding Cell",
+      "category": "saldatura",
+      "specs": "Corrente: fino a 500A",
       "image": "",
-      "description_it": "Pressa piegatrice CNC ad alta precisione per lamiere di grandi dimensioni. Controllo backgauge automatico, tolleranza angolare ±0,2°.",
-      "description_en": "High-precision CNC press brake for large sheets. Automatic backgauge control, angular tolerance ±0.2°."
+      "description_it": "Isola robotizzata di saldatura per lavorazioni automatizzate ad alta ripetibilità e produttività su componenti strutturali e di carpenteria.",
+      "description_en": "Robotic welding cell for automated high-repeatability and high-productivity operations on structural and fabricated components."
     },
     {
       "id": 7,
-      "name_it": "Sabbiatrice Automatica",
-      "name_en": "Automatic Shot-Blasting",
-      "category": "finitura",
-      "specs": "Tunnel: 2000×2000 mm | Grado: Sa 2.5 | Profilo: Ry 50–100 μm",
+      "name_it": "Pressa Piegatrice CNC 400T",
+      "name_en": "400T CNC Press Brake",
+      "category": "formatura",
+      "specs": "Forza: 400 T | Lunghezza: 4200 mm",
       "image": "",
-      "description_it": "Tunnel di sabbiatura automatica a turbine per preparazione superficiale di strutture e componenti metallici. Cicli di verniciatura industriale fino a C5-M.",
-      "description_en": "Automatic turbine shot-blasting tunnel for surface preparation of metal structures and components. Industrial painting cycles up to C5-M."
+      "description_it": "Pressa piegatrice CNC con forza di 400 tonnellate e lunghezza utile di 4200 mm per la piegatura di lamiere di medio-grande formato.",
+      "description_en": "CNC press brake with 400-tonne force and 4200 mm working length for bending medium to large format sheets."
     },
     {
       "id": 8,
-      "name_it": "Tornitura CNC Ø2000 mm",
-      "name_en": "CNC Turning Ø2000 mm",
-      "category": "lavorazione-cnc",
-      "specs": "Diametro max: 2000 mm | Lunghezza: 8000 mm | Precisione: IT6",
+      "name_it": "Cesoia CNC",
+      "name_en": "CNC Shear",
+      "category": "taglio",
+      "specs": "Capacità: 3100 mm × 13 mm",
       "image": "",
-      "description_it": "Tornio CNC di grandi dimensioni per lavorazione di componenti cilindrici di grande diametro: flange, virole, alberi e componenti per pressure vessel.",
-      "description_en": "Large CNC lathe for machining large-diameter cylindrical components: flanges, shells, shafts and pressure vessel components."
+      "description_it": "Cesoia a ghigliottina CNC per il taglio rettilineo di lamiere fino a 3100 mm di larghezza e 13 mm di spessore.",
+      "description_en": "CNC guillotine shear for straight cutting of sheets up to 3100 mm wide and 13 mm thick."
     },
     {
       "id": 9,
-      "name_it": "Gru a Ponte 20T",
-      "name_en": "20T Overhead Crane",
-      "category": "movimentazione",
-      "specs": "Portata: 20 tonnellate | Luce: 24 m | Altezza gancio: 10 m",
+      "name_it": "Trapano Radiale",
+      "name_en": "Radial Drill",
+      "category": "lavorazione-cnc",
+      "specs": "",
       "image": "",
-      "description_it": "Carroponte da 20 tonnellate per movimentazione di strutture di grande peso all'interno dell'officina. Gestione sicura di montaggi complessi.",
-      "description_en": "20-tonne overhead crane for moving heavy structures inside the workshop. Safe handling of complex assemblies."
+      "description_it": "Trapano radiale per operazioni di foratura, alesatura e maschiatura su componenti strutturali e di carpenteria di grandi dimensioni.",
+      "description_en": "Radial drill for drilling, boring and tapping operations on large structural and fabricated components."
     },
     {
       "id": 10,
+      "name_it": "Curva Profili",
+      "name_en": "Profile Bender",
+      "category": "formatura",
+      "specs": "",
+      "image": "",
+      "description_it": "Curvatrice per profili metallici destinata alla sagomatura di travi, tubi e profilati secondo raggi di curvatura specifici.",
+      "description_en": "Profile bending machine for shaping beams, tubes and sections to specified bending radii."
+    },
+    {
+      "id": 11,
+      "name_it": "Calandra CNC",
+      "name_en": "CNC Plate Rolling Machine",
+      "category": "formatura",
+      "specs": "4 Rulli | Spessore massimo: 35 mm × 3100 mm",
+      "image": "",
+      "description_it": "Calandra a 4 rulli CNC per la calandratura di lamiere fino a 35 mm di spessore e 3100 mm di larghezza, ideale per la realizzazione di virole e componenti cilindrici.",
+      "description_en": "4-roll CNC plate rolling machine for rolling sheets up to 35 mm thick and 3100 mm wide, ideal for manufacturing shells and cylindrical components."
+    },
+    {
+      "id": 12,
+      "name_it": "Seghe a Nastro CNC",
+      "name_en": "CNC Band Saws",
+      "category": "taglio",
+      "specs": "Capacità: 500 mm × 320 mm",
+      "image": "",
+      "description_it": "Seghe a nastro CNC per il taglio preciso di profilati, barre e tubi con sezione fino a 500×320 mm.",
+      "description_en": "CNC band saws for precise cutting of profiles, bars and tubes with cross-section up to 500×320 mm."
+    },
+    {
+      "id": 13,
+      "name_it": "Punzonatrice Oliodinamica",
+      "name_en": "Hydraulic Punching Machine",
+      "category": "lavorazione-cnc",
+      "specs": "Forza: 115 T",
+      "image": "",
+      "description_it": "Punzonatrice oliodinamica con forza di 115 tonnellate per operazioni di punzonatura, stampaggio e tranciatura su lamiere e piastre.",
+      "description_en": "Hydraulic punching machine with 115-tonne force for punching, stamping and blanking operations on sheets and plates."
+    },
+    {
+      "id": 14,
       "name_it": "Laboratorio NDT",
       "name_en": "NDT Laboratory",
       "category": "controlli",
       "specs": "RT, UT, PT, MT, VT | Certificazione EN ISO 9712 Lev. 2–3",
       "image": "",
-      "description_it": "Laboratorio interno NDT con personale certificato EN ISO 9712 per controlli radiografici (RT), ultrasonici (UT), liquidi penetranti (PT) e particelle magnetiche (MT).",
-      "description_en": "In-house NDT lab with EN ISO 9712 certified personnel for radiographic (RT), ultrasonic (UT), penetrant (PT) and magnetic particle (MT) testing."
+      "description_it": "Laboratorio interno NDT con personale certificato EN ISO 9712 per controlli radiografici (RT), ultrasonici (UT), liquidi penetranti (PT), particelle magnetiche (MT) e visivi (VT).",
+      "description_en": "In-house NDT lab with EN ISO 9712 certified personnel for radiographic (RT), ultrasonic (UT), penetrant (PT), magnetic particle (MT) and visual (VT) testing."
     }
   ]
 }
