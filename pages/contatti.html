@@ -130,18 +130,17 @@
 
       <!-- Form -->
       <div class="reveal-right">
-        <!--
-          Il form usa action="mailto:" che apre il client email locale.
-          Per un backend reale (form server) sostituire action e method.
-        -->
+        <!-- Form inviato tramite FormSubmit.io -->
         <form
           class="form"
           id="contact-form"
-          action="mailto:info@evolutionengineering.eu"
-          method="GET"
-          enctype="text/plain"
+          action="https://formsubmit.co/info@evolutionengineering.eu"
+          method="POST"
           aria-label="Modulo di contatto"
         >
+          <!-- Disabilita reCAPTCHA e reindirizza dopo submit -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://www.evolutionengineering.eu/pages/contatti.html?success=true">
           <p class="section__label" style="margin-bottom:1.5rem">Modulo di Contatto</p>
 
           <div class="form__row">
@@ -204,13 +203,8 @@
           </button>
 
           <p style="font-size:0.78rem;color:var(--text-muted);margin-top:1rem;text-align:center">
-            * Campi obbligatori. Il modulo apre il tuo client email con i dati precompilati.
+            * Campi obbligatori. Invia la richiesta e riceverai una conferma via email.
           </p>
-
-          <!-- Messaggio di successo (mostrato da JS dopo submit) -->
-          <div id="form-success" style="display:none;margin-top:1rem;background:rgba(200,168,75,0.1);border:1px solid var(--gold);border-radius:var(--radius);padding:1rem;text-align:center;color:var(--gold)">
-            ✅ Il client email si è aperto con i dati precompilati. Invia il messaggio dal tuo programma di posta.
-          </div>
         </form>
       </div>
 

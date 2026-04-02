@@ -98,7 +98,9 @@
       </div>
 
       <div class="reveal-right">
-        <form class="form" id="contact-form" action="mailto:info@evolutionengineering.eu" method="GET" enctype="text/plain" aria-label="Contact form">
+        <form class="form" id="contact-form" action="https://formsubmit.co/info@evolutionengineering.eu" method="POST" aria-label="Contact form">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://www.evolutionengineering.eu/en/pages/contacts.html?success=true">
           <p class="section__label" style="margin-bottom:1.5rem">Contact Form</p>
 
           <div class="form__row">
@@ -153,12 +155,8 @@
           <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center">Send Request →</button>
 
           <p style="font-size:0.78rem;color:var(--text-muted);margin-top:1rem;text-align:center">
-            * Required fields. The form opens your email client with pre-filled data.
+            * Required fields. Submit your request and you will receive a confirmation email.
           </p>
-
-          <div id="form-success" style="display:none;margin-top:1rem;background:rgba(200,168,75,0.1);border:1px solid var(--gold);border-radius:var(--radius);padding:1rem;text-align:center;color:var(--gold)">
-            ✅ Your email client has opened with pre-filled data. Please send the message from your mail application.
-          </div>
         </form>
       </div>
 
