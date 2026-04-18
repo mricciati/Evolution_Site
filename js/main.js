@@ -438,7 +438,6 @@ function getImagePrefix() {
       '</div>' +
       '<div class="project-card__body">' +
         '<div class="project-card__meta">' +
-          '<span>' + p.year + '</span>' +
           '<span>' + p.client + '</span>' +
         '</div>' +
         '<h3 class="project-card__title">' + title + '</h3>' +
@@ -490,7 +489,6 @@ function getImagePrefix() {
       '</div>' +
       '<div class="project-card__body">' +
         '<div class="project-card__meta">' +
-          '<span>' + p.year + '</span>' +
           '<span>' + p.client + '</span>' +
         '</div>' +
         '<h3 class="project-card__title">' + title + '</h3>' +
