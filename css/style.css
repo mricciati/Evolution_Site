@@ -1015,6 +1015,107 @@ p { margin-bottom: 1rem; }
 
 .lightbox__close:hover { background: rgba(255,255,255,0.15); }
 
+.lightbox__prev,
+.lightbox__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: var(--text-light);
+  width: 48px;
+  height: 64px;
+  cursor: pointer;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition);
+  user-select: none;
+}
+.lightbox__prev { left: 1.5rem; }
+.lightbox__next { right: 1.5rem; }
+.lightbox__prev:hover,
+.lightbox__next:hover { background: rgba(255,255,255,0.2); }
+
+.lightbox__counter {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255,255,255,0.6);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+
+.project-card__count {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  background: rgba(10,25,47,0.75);
+  color: #fff;
+  font-size: 0.78rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  pointer-events: none;
+}
+
+/* ---------- Mission / Vision / Valori ---------- */
+.mvv__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.mvv-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mvv-card__icon {
+  font-size: 1.8rem;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.mvv-card__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-light);
+  margin: 0;
+}
+
+.mvv-card__text {
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.mvv-card__values {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.mvv-card__values li strong {
+  color: var(--text-light);
+}
+
+@media (max-width: 900px) {
+  .mvv__grid { grid-template-columns: 1fr; }
+}
+
 /* ---------- Servizi Page ---------- */
 .service-detail {
   display: grid;

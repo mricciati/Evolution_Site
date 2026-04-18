@@ -10,99 +10,198 @@ var SITE_DATA = {
   projects: [
     {
       id: 1,
-      title_it: "Struttura Portante Turbina Eolica",
-      title_en: "Wind Turbine Supporting Structure",
-      category: "carpenteria",
-      client: "EPC Contractor — Nord Europa",
-      year: 2024,
-      description_it: "Realizzazione di strutture portanti in acciaio S355 per nacelle di turbine eoliche offshore. Lavorazione esecutiva conforme EN 1090 EXC3, sabbiatura Sa 2.5 e verniciatura ciclo C5-M.",
-      description_en: "Fabrication of S355 steel supporting structures for offshore wind turbine nacelles. Executive machining compliant with EN 1090 EXC3, Sa 2.5 blasting and C5-M coating cycle.",
-      image: "images/portfolio/PHOTO-2026-04-02-08-21-55_3.jpg",
-      tags: ["carpenteria", "strutture", "eolico"]
+      title_it: "Tubazioni di Recupero Calore",
+      title_en: "Heat Recovery Piping",
+      category: "piping",
+      client: "MINE S.p.A., Pisticci Scalo (MT)",
+      year: 2023,
+      description_it: "Realizzazione e installazione di tubazioni per il recupero calore presso l'impianto MINE S.p.A. di Pisticci Scalo. Fabbricazione di tratti di grande diametro in acciaio, coibentazione in lana minerale ad alta densità e rivestimento in lamiera di alluminio per il contenimento delle dispersioni termiche.",
+      description_en: "Fabrication and installation of piping for heat recovery at MINE S.p.A. plant in Pisticci Scalo. Large diameter steel sections, high-density mineral wool insulation and aluminium cladding to minimise heat losses.",
+      image: "images/portfolio/commessa-1/IMG_2820.JPG",
+      gallery: ["images/portfolio/commessa-1/IMG_2820.JPG","images/portfolio/commessa-1/IMG_2861.JPG","images/portfolio/commessa-1/IMG_4061.JPG","images/portfolio/commessa-1/IMG_4064.JPG","images/portfolio/commessa-1/PHOTO-2026-04-02-08-21-55.jpg","images/portfolio/commessa-1/PHOTO-2026-04-02-08-21-55_1.jpg","images/portfolio/commessa-1/PHOTO-2026-04-02-08-21-55_2.jpg","images/portfolio/commessa-1/PHOTO-2026-04-02-08-21-55_4.jpg","images/portfolio/commessa-1/PHOTO-2026-04-02-08-21-55_8.jpg","images/portfolio/commessa-1/PHOTO-2026-04-02-08-25-38_1.jpg"],
+      tags: ["piping", "coibentazione", "recupero-calore"]
     },
     {
       id: 2,
-      title_it: "Skid Processo Farmaceutico GMP",
-      title_en: "GMP Pharmaceutical Process Skid",
-      category: "skid",
-      client: "System Integrator — Svizzera",
-      year: 2024,
-      description_it: "Fornitura chiavi in mano di skid processo in AISI 316L per impianto farmaceutico GMP. Comprende struttura, piping sanitario, supporti e documentazione IQ/OQ.",
-      description_en: "Turnkey supply of AISI 316L process skid for GMP pharmaceutical plant. Includes structure, sanitary piping, supports and IQ/OQ documentation.",
-      image: "images/portfolio/PHOTO-2026-04-02-08-21-56_17.jpg",
-      tags: ["skid", "farmaceutico", "gmp"]
+      title_it: "Reti Idroniche – Ospedale San Cataldo",
+      title_en: "Hydronic Networks – San Cataldo Hospital",
+      category: "piping",
+      client: "Nuovo Ospedale San Cataldo, Taranto",
+      year: 2023,
+      description_it: "Costruzione, fornitura, montaggio e coibentazione delle reti secondarie idroniche presso il cantiere del Nuovo Ospedale San Cataldo di Taranto. Prefabbricazione con saldatura TIG e controlli radiografici, posa a soffitto e coibentazione K-Flex per impianti di riscaldamento e raffrescamento.",
+      description_en: "Fabrication, supply, installation and insulation of secondary hydronic networks at the new San Cataldo Hospital, Taranto. TIG welding with radiographic inspection, ceiling-mounted installation and K-Flex insulation for HVAC systems.",
+      image: "images/portfolio/commessa-2/PHOTO-2023-09-07-10-41-11.jpg",
+      gallery: ["images/portfolio/commessa-2/PHOTO-2023-09-07-10-41-11.jpg","images/portfolio/commessa-2/PHOTO-2023-09-07-10-41-11_1.jpg","images/portfolio/commessa-2/PHOTO-2026-04-02-08-21-56_1.jpg","images/portfolio/commessa-2/PHOTO-2026-04-02-08-21-56_13.jpg","images/portfolio/commessa-2/PHOTO-2026-04-02-08-21-56_3.jpg","images/portfolio/commessa-2/PHOTO-2026-04-02-08-21-56_8.jpg"],
+      tags: ["piping", "coibentazione", "impianti-civili"]
     },
     {
       id: 3,
-      title_it: "Piping Industriale Impianto Energia",
-      title_en: "Industrial Piping for Energy Plant",
+      title_it: "Impianto Trattamento Acque Industriali",
+      title_en: "Industrial Water Treatment Plant",
       category: "piping",
-      client: "OEM — Germania",
+      client: "Acciaierie d'Italia, Taranto",
       year: 2023,
-      description_it: "Prefabbricazione e montaggio di piping in acciaio al carbonio e inox per centrale di cogenerazione. Pressioni fino a 40 bar, saldatura qualificata EN ISO 15614.",
-      description_en: "Prefabrication and assembly of carbon and stainless steel piping for a cogeneration plant. Pressures up to 40 bar, EN ISO 15614 qualified welding.",
-      image: "images/portfolio/PHOTO-2026-04-02-08-21-56_10.jpg",
-      tags: ["piping", "energia", "cogenerazione"]
+      description_it: "Fornitura, costruzione e montaggio di impianto di trattamento acque industriali presso lo stabilimento siderurgico di Taranto. Serbatoi in pressione, reti di tubazioni in PE ad alta densità e acciaio inox, complete di valvolame e apparecchiature accessorie.",
+      description_en: "Supply, fabrication and installation of an industrial water treatment plant at the Taranto steelworks. Pressure vessels, HDPE and stainless steel piping networks, complete with valves and accessories.",
+      image: "images/portfolio/commessa-3/PHOTO-2023-07-05-09-19-34.jpg",
+      gallery: ["images/portfolio/commessa-3/PHOTO-2023-07-05-09-19-34.jpg","images/portfolio/commessa-3/PHOTO-2023-07-05-09-19-35.jpg","images/portfolio/commessa-3/PHOTO-2023-07-05-09-19-37.jpg"],
+      tags: ["piping", "acciaio-inox", "trattamento-acque"]
     },
     {
       id: 4,
-      title_it: "Moduli Prefabbricati Oil & Gas",
-      title_en: "Prefabricated Modules Oil & Gas",
-      category: "skid",
-      client: "EPC Contractor — Benelux",
-      year: 2023,
-      description_it: "Progettazione esecutiva e costruzione di 3 moduli prefabbricati per impianto oil & gas. Struttura modulare in acciaio S275, certificazione PED e ATEX.",
-      description_en: "Executive design and construction of 3 prefabricated modules for oil & gas plant. Modular S275 steel structure, PED and ATEX certification.",
-      image: "images/portfolio/PHOTO-2026-04-02-08-21-56_11.jpg",
-      tags: ["skid", "moduli", "oil&gas"]
+      title_it: "Tubazioni Grandi Diametri per Caldaieria",
+      title_en: "Large Diameter Boilermaking Pipes",
+      category: "piping",
+      client: "Industria — Italia",
+      year: 2024,
+      description_it: "Fornitura di tubazioni di grande diametro (52\", 56\", 60\") in acciaio ASTM A516 Gr. 70, sp. 20 mm. Lavorazione con taglio plasma bevel 3D, calandratura CNC a 4 rulli, saldatura ad arco sommerso con doppia penetrazione e controllo radiografico.",
+      description_en: "Supply of large diameter pipes (52\", 56\", 60\") in ASTM A516 Gr. 70 steel, 20 mm thick. Processed by 3D bevel plasma cutting, 4-roll CNC plate rolling, double-pass submerged arc welding and radiographic inspection.",
+      image: "images/portfolio/commessa-4/IMG_6850.JPG",
+      gallery: ["images/portfolio/commessa-4/IMG_6850.JPG","images/portfolio/commessa-4/PHOTO-2026-04-02-08-21-55_13.jpg","images/portfolio/commessa-4/PHOTO-2026-04-02-08-21-55_5.jpg","images/portfolio/commessa-4/PHOTO-2026-04-02-08-25-38_3.jpg"],
+      tags: ["piping", "caldaieria", "alta-pressione"]
     },
     {
       id: 5,
-      title_it: "Carpenteria Pesante Infrastrutture",
-      title_en: "Heavy Steel Fabrication for Infrastructure",
+      title_it: "Selle di Trasporto per Tubazione",
+      title_en: "Transport Saddles for Large Pipeline",
       category: "carpenteria",
-      client: "General Contractor — Italia",
-      year: 2022,
-      description_it: "Fornitura di carpenteria metallica pesante per infrastruttura industriale. Travi HEB, colonne, controventi e giunzioni bullonate classe 8.8.",
-      description_en: "Supply of heavy metal carpentry for industrial infrastructure. HEB beams, columns, bracing and grade 8.8 bolted connections.",
-      image: "images/portfolio/PHOTO-2026-04-02-08-21-55_10.jpg",
-      tags: ["carpenteria", "strutture", "infrastrutture"]
+      client: "Porto di Taranto",
+      year: 2024,
+      description_it: "Costruzione e fornitura di selle di trasporto in carpenteria metallica pesante per il sostegno di una tubazione di grande diametro da 52 metri. Progettate su misura per il trasporto eccezionale su strada fino al Porto di Taranto, dove la tubazione è stata imbarcata e spedita via mare.",
+      description_en: "Fabrication and supply of heavy steel transport saddles for supporting a 52-metre large-diameter pipeline. Custom-designed for oversize road transport to the Port of Taranto for onward sea shipment.",
+      image: "images/portfolio/commessa-5/PHOTO-2026-04-02-08-21-57_1.jpg",
+      gallery: ["images/portfolio/commessa-5/PHOTO-2026-04-02-08-21-57_1.jpg","images/portfolio/commessa-5/PHOTO-2026-04-02-08-21-57_2.jpg"],
+      tags: ["carpenteria", "trasporto-eccezionale", "portuale"]
     },
     {
       id: 6,
-      title_it: "Rack Piping Alta Pressione",
-      title_en: "High Pressure Piping Rack",
-      category: "piping",
-      client: "System Integrator — Francia",
-      year: 2022,
-      description_it: "Realizzazione di rack piping ad alta pressione per impianto chimico. Tubi P91, saldatura TIG orbitale, controlli NDT al 100% RT+UT.",
-      description_en: "High pressure piping rack for chemical plant. P91 tubes, orbital TIG welding, 100% NDT controls RT+UT.",
-      image: "images/portfolio/PHOTO-2026-04-02-08-21-55_7.jpg",
-      tags: ["piping", "alta-pressione", "ndt"]
+      title_it: "Rampa di Carico – Marina Militare Italiana",
+      title_en: "Loading Ramp – Italian Navy",
+      category: "navale",
+      client: "Marina Militare Italiana",
+      year: 2023,
+      description_it: "Costruzione, fornitura e montaggio di rampa di carico in carpenteria metallica pesante per nave cargo della Marina Militare Italiana. Taglio e lavorazione della lamiera, assemblaggio e saldatura delle strutture portanti, verniciatura in verde militare e montaggio a bordo.",
+      description_en: "Fabrication, supply and installation of a heavy steel loading ramp for an Italian Navy cargo vessel. Steel cutting and forming, structural assembly and welding, military-green coating and on-board fitting.",
+      image: "images/portfolio/commessa-6/IMG_6228.JPG",
+      gallery: ["images/portfolio/commessa-6/IMG_6228.JPG","images/portfolio/commessa-6/IMG_6286.JPG","images/portfolio/commessa-6/PHOTO-2026-04-02-08-21-55_10.jpg","images/portfolio/commessa-6/PHOTO-2026-04-02-08-21-55_7.jpg"],
+      tags: ["navale", "carpenteria", "marina-militare"]
     },
     {
       id: 7,
-      title_it: "Costruzione Navale — Scafo Acciaio",
-      title_en: "Shipbuilding — Steel Hull",
-      category: "carpenteria",
-      client: "Cantiere Navale — Mediterraneo",
+      title_it: "Assemblaggio Modulo Scafo – Benetti Yachts",
+      title_en: "Hull Module Assembly – Benetti Yachts",
+      category: "navale",
+      client: "Benetti Yachts, Taranto",
       year: 2023,
-      description_it: "Prefabbricazione di sezioni di scafo in acciaio navale per unità commerciale. Laminati fino a 100mm, saldatura sottoacqua certificata.",
-      description_en: "Prefabrication of naval steel hull sections for commercial vessel. Plates up to 100mm, certified underwater welding.",
-      image: "images/portfolio/IMG_2820.JPG",
-      tags: ["navale", "carpenteria", "scafo"]
+      description_it: "Fornitura di manodopera specializzata per la pulizia, l'assemblaggio e la saldatura di un modulo di scafo per yacht del cantiere Benetti presso lo stabilimento di Taranto. Preparazione particolari in lamiera, assemblaggio strutturale e saldatura nel rispetto degli standard qualitativi Benetti.",
+      description_en: "Specialist labour supply for cleaning, assembly and welding of a yacht hull module at Benetti's Taranto facility. Steel component preparation, structural assembly and welding in compliance with Benetti quality standards.",
+      image: "images/portfolio/commessa-7/PHOTO-2026-04-02-08-21-56_9.jpg",
+      gallery: ["images/portfolio/commessa-7/PHOTO-2026-04-02-08-21-56_9.jpg","images/portfolio/commessa-7/PHOTO-2026-04-02-08-21-57_10.jpg","images/portfolio/commessa-7/PHOTO-2026-04-02-08-21-57_6.jpg","images/portfolio/commessa-7/PHOTO-2026-04-02-08-21-57_7.jpg"],
+      tags: ["navale", "scafo", "saldatura"]
     },
     {
       id: 8,
-      title_it: "Tubazioni Coibentate per Termoelettrico",
-      title_en: "Insulated Piping for Thermal Power Plant",
-      category: "piping",
-      client: "Gestore Centrale Termoelettrica",
+      title_it: "Centine di Rinforzo Condotte – Acciaierie d'Italia",
+      title_en: "Duct Reinforcement Frames – Acciaierie d'Italia",
+      category: "carpenteria",
+      client: "Acciaierie d'Italia, Taranto",
+      year: 2022,
+      description_it: "Costruzione e fornitura di circa 11.300 centine ad arco in acciaio per il rinforzo delle condotte di aspirazione acqua – circa 2.100 t in due lotti. Calandratura e piegatura con pressa idraulica, assemblaggio e saldatura robotizzata, zincatura a caldo del prodotto finito.",
+      description_en: "Fabrication and supply of approx. 11,300 steel arch frames for reinforcing water intake ducts – approx. 2,100 t in two lots. Hydraulic press rolling and bending, robotic assembly and welding, hot-dip galvanising of finished product.",
+      image: "images/portfolio/commessa-8/Centine.JPG",
+      gallery: ["images/portfolio/commessa-8/Centine.JPG","images/portfolio/commessa-8/Centine 2.JPG","images/portfolio/commessa-8/PHOTO-2026-04-02-08-21-55_6.jpg","images/portfolio/commessa-8/Saldatura centine.JPG"],
+      tags: ["carpenteria", "zincatura", "strutture"]
+    },
+    {
+      id: 9,
+      title_it: "Travi in Acciaio EXC3 – Export Emirati Arabi",
+      title_en: "EXC3 Steel Beams – UAE Export",
+      category: "carpenteria",
+      client: "Export — Emirati Arabi Uniti",
       year: 2024,
-      description_it: "Lavorazione di tubazioni in acciaio P11 con coibentazione ceramica per circuiti vapore. Diametri DN25-DN500, pressioni fino a 100 bar, isolamento fino a 50mm.",
-      description_en: "P11 steel piping with ceramic insulation for steam circuits. Diameters DN25-DN500, pressures up to 100 bar, insulation up to 50mm.",
-      image: "images/portfolio/IMG_2861.JPG",
-      tags: ["piping", "coibentazione", "termoelettrica"]
+      description_it: "Costruzione e fornitura di 52 tonnellate di travi in acciaio profilo UB 533, destinate all'esportazione negli Emirati Arabi. Commessa eseguita in Classe di Esecuzione EXC3 secondo EN 1090, con preparazione superficiale P2, saldatori certificati e documentazione completa WPS/PQR/WPQR.",
+      description_en: "Fabrication and supply of 52 tonnes of UB 533 steel beams for export to the UAE. Order executed to Execution Class EXC3 per EN 1090, with P2 surface preparation, certified welders and full WPS/PQR/WPQR documentation.",
+      image: "images/portfolio/commessa-9/PHOTO-2026-04-02-08-21-57.jpg",
+      gallery: ["images/portfolio/commessa-9/PHOTO-2026-04-02-08-21-57.jpg","images/portfolio/commessa-9/PHOTO-2026-04-02-08-21-57_4.jpg","images/portfolio/commessa-9/PHOTO-2026-04-02-08-21-57_9.jpg"],
+      tags: ["carpenteria", "strutture", "en1090"]
+    },
+    {
+      id: 10,
+      title_it: "Pareti Coibentate REI 120",
+      title_en: "REI 120 Insulated Wall Panels",
+      category: "carpenteria",
+      client: "Provincia di Taranto",
+      year: 2024,
+      description_it: "Realizzazione di oltre 4.000 m² di pareti coibentate in pannelli REI 120 (sp. 120-150 mm) in un capannone industriale di circa 50.000 m² nella provincia di Taranto. Montaggio carpenteria metallica, posa pannelli con ventosa e mezzi di sollevamento, lattoneria di completamento.",
+      description_en: "Installation of over 4,000 m² of REI 120 insulated panels (120-150 mm thick) in an industrial shed of approx. 50,000 m² in the Taranto area. Steel framework erection, panel installation with vacuum lifter and cranes, completion flashings.",
+      image: "images/portfolio/commessa-10/PHOTO-2026-04-02-08-21-56_10.jpg",
+      gallery: ["images/portfolio/commessa-10/PHOTO-2026-04-02-08-21-56_10.jpg","images/portfolio/commessa-10/PHOTO-2026-04-02-08-21-56_14.jpg","images/portfolio/commessa-10/PHOTO-2026-04-02-08-21-56_17.jpg","images/portfolio/commessa-10/PHOTO-2026-04-02-08-21-56_21.jpg","images/portfolio/commessa-10/PHOTO-2026-04-02-08-21-56_22.jpg","images/portfolio/commessa-10/PHOTO-2026-04-02-08-21-56_23.jpg"],
+      tags: ["carpenteria", "coibentazione", "antincendio"]
+    },
+    {
+      id: 11,
+      title_it: "Serbatoi e Tubazioni in Acciaio Duplex",
+      title_en: "Duplex Stainless Steel Tanks & Piping",
+      category: "serbatoi",
+      client: "Acciaierie d'Italia, Taranto",
+      year: 2024,
+      description_it: "Costruzione, fornitura, montaggio e trasporto di serbatoi e tubazioni in acciaio inossidabile duplex per l'impianto solfato di Acciaierie d'Italia. Fabbricazione in officina, trasporto eccezionale al sito e montaggio in quota mediante gru.",
+      description_en: "Fabrication, supply, installation and transport of duplex stainless steel tanks and piping for the sulphate plant at Acciaierie d'Italia. Shop fabrication, oversize road transport to site and crane-assisted elevated installation.",
+      image: "images/portfolio/commessa-11/IMG_1808.jpeg",
+      gallery: ["images/portfolio/commessa-11/IMG_1808.jpeg","images/portfolio/commessa-11/PHOTO-2024-11-28-14-32-48.jpg","images/portfolio/commessa-11/PHOTO-2026-04-02-08-21-56_19.jpg","images/portfolio/commessa-11/PHOTO-2026-04-02-08-21-56_4.jpg","images/portfolio/commessa-11/serbatioi duplex rev.png","images/portfolio/commessa-11/trasporto serbatoio.png"],
+      tags: ["serbatoi", "acciaio-inox", "duplex"]
+    },
+    {
+      id: 12,
+      title_it: "Serbatoi in Pressione – Porto di Taranto",
+      title_en: "Pressure Vessels – Port of Taranto",
+      category: "serbatoi",
+      client: "Porto di Taranto",
+      year: 2023,
+      description_it: "Costruzione, fornitura e trasporto di serbatoi in pressione di grandi dimensioni, verniciati e completi di bocchelli e attacchi flangiati. Movimentazione con gru e trasporto eccezionale su pianale fino al Porto di Taranto per imbarco e spedizione via mare.",
+      description_en: "Fabrication, supply and transport of large pressure vessels, painted and complete with nozzles and flanged connections. Crane handling and oversize transport to the Port of Taranto for loading and sea shipment.",
+      image: "images/portfolio/commessa-12/PHOTO-2026-04-02-08-21-55_9.jpg",
+      gallery: ["images/portfolio/commessa-12/PHOTO-2026-04-02-08-21-55_9.jpg","images/portfolio/commessa-12/PHOTO-2026-04-02-08-21-55_12.jpg"],
+      tags: ["serbatoi", "pressione", "trasporto-eccezionale"]
+    },
+    {
+      id: 13,
+      title_it: "Torri Eoliche – Tozzi Green",
+      title_en: "Wind Towers – Tozzi Green",
+      category: "carpenteria",
+      client: "Tozzi Green",
+      year: 2022,
+      description_it: "Costruzione e fornitura di torri eoliche, comprensive del concio di fondazione, per Tozzi Green. Fabbricazione dei tronchi di torre in carpenteria metallica pesante e verniciatura con ciclo marino a 320 micron nel rispetto delle normative per il settore eolico.",
+      description_en: "Fabrication and supply of wind towers including foundation sections for Tozzi Green. Heavy steel tower can fabrication and marine-grade coating to 320 microns in accordance with wind industry standards.",
+      image: "images/portfolio/commessa-13/Torre eolica.JPG",
+      gallery: ["images/portfolio/commessa-13/Torre eolica.JPG"],
+      tags: ["carpenteria", "eolico", "verniciatura"]
+    },
+    {
+      id: 14,
+      title_it: "Tralicci per Ascensore Industriale – Acciaierie d'Italia",
+      title_en: "Lattice Towers for Industrial Lift – Acciaierie d'Italia",
+      category: "carpenteria",
+      client: "Acciaierie d'Italia, Taranto",
+      year: 2023,
+      description_it: "Costruzione e montaggio di tralicci in carpenteria metallica zincata, alti circa 90 metri, per alloggiare un ascensore industriale presso Acciaierie d'Italia. Fabbricazione in officina, zincatura a caldo e montaggio in quota mediante gru e piattaforme aeree.",
+      description_en: "Fabrication and erection of hot-dip galvanised steel lattice towers approx. 90 metres tall to house an industrial lift at Acciaierie d'Italia. Shop fabrication, hot-dip galvanising and elevated assembly by crane and aerial work platforms.",
+      image: "images/portfolio/commessa-14/IMG_9046.jpeg",
+      gallery: ["images/portfolio/commessa-14/IMG_9046.jpeg","images/portfolio/commessa-14/A5CC6408-4BC6-40FB-87A4-9FEB7CEF0958.JPG","images/portfolio/commessa-14/PHOTO-2026-04-02-08-21-56_20.jpg"],
+      tags: ["carpenteria", "strutture", "zincatura"]
+    },
+    {
+      id: 15,
+      title_it: "Ricostruzione Tramoggia Portuale – Italcave",
+      title_en: "Port Hopper Reconstruction – Italcave",
+      category: "carpenteria",
+      client: "Italcave S.p.A., Taranto",
+      year: 2024,
+      description_it: "Ricostruzione completa di tramoggia portuale, cassa filtri e rompizolla per impianto di scarico minerali da nave a Taranto. Corpo tramoggia in acciaio antiusura Hardox 450, zincatura a caldo di tutti i componenti, fornitura e montaggio cassa filtri e rompizolla.",
+      description_en: "Full reconstruction of a port hopper, filter box and lump-breaker for a ship-unloading mineral plant in Taranto. Hopper body in Hardox 450 wear-resistant steel, hot-dip galvanising of all components, supply and installation of filter box and lump-breaker.",
+      image: "images/portfolio/commessa-15/IMG_6996.JPG",
+      gallery: ["images/portfolio/commessa-15/IMG_6996.JPG","images/portfolio/commessa-15/PHOTO-2026-04-02-08-25-38.jpg","images/portfolio/commessa-15/b3bb7592-7dbf-4745-8607-a2977c7ae284.JPG","images/portfolio/commessa-15/d78f37a1-3969-414c-810a-fc6b2f47d1e0.JPG","images/portfolio/commessa-15/da579d5d-31b0-4d23-809e-7052ee3669e4.JPG"],
+      tags: ["carpenteria", "hardox", "portuale"]
     }
   ],
   equipment: [
@@ -321,17 +420,21 @@ function getImagePrefix() {
   }
 
   function projectCard(p, lang) {
-    const title = lang === 'en' ? p.title_en : p.title_it;
-    const desc  = lang === 'en' ? p.description_en : p.description_it;
-    const tags  = (p.tags || []).map(t => '<span class="tag">' + t + '</span>').join('');
-    var imgSrc = p.image ? prefix + p.image : '';
+    const title   = lang === 'en' ? p.title_en : p.title_it;
+    const desc    = lang === 'en' ? p.description_en : p.description_it;
+    const tags    = (p.tags || []).map(t => '<span class="tag">' + t + '</span>').join('');
+    var imgSrc    = p.image ? prefix + p.image : '';
+    var gallery   = (p.gallery && p.gallery.length) ? p.gallery.map(g => prefix + g) : (imgSrc ? [imgSrc] : []);
+    var galleryJS = JSON.stringify(gallery).replace(/'/g, "\\'");
+    var photoCount = gallery.length > 1 ? '<span class="project-card__count">&#x1F4F7; ' + gallery.length + '</span>' : '';
 
     return '<article class="project-card reveal" data-category="' + p.category + '">' +
-      '<div class="project-card__img placeholder img-placeholder" style="cursor:pointer;height:220px"' +
-        (imgSrc ? ' onclick="openLightbox(\'' + imgSrc + '\')"' : '') + '>' +
+      '<div class="project-card__img placeholder img-placeholder" style="cursor:pointer;height:220px;position:relative"' +
+        (gallery.length ? ' onclick="openGallery(' + galleryJS.replace(/"/g, '&quot;') + ',0)"' : '') + '>' +
         (imgSrc
           ? '<img src="' + imgSrc + '" alt="' + title + '" style="width:100%;height:220px;object-fit:cover;" onerror="this.parentElement.innerHTML=\'<span>Foto in arrivo</span>\'">'
           : '<span>Foto in arrivo</span>') +
+        photoCount +
       '</div>' +
       '<div class="project-card__body">' +
         '<div class="project-card__meta">' +
@@ -439,16 +542,38 @@ function getImagePrefix() {
 })();
 
 /* ============================================================
-   7. LIGHTBOX
+   7. LIGHTBOX con galleria
    ============================================================ */
+var _lbGallery = [];
+var _lbIndex   = 0;
+
+function openGallery(images, startIndex) {
+  _lbGallery = Array.isArray(images) ? images : [images];
+  _lbIndex   = startIndex || 0;
+  _renderLightbox();
+}
+
 function openLightbox(src) {
-  const lb = document.getElementById('lightbox');
+  openGallery([src], 0);
+}
+
+function _renderLightbox() {
+  const lb  = document.getElementById('lightbox');
   const img = document.getElementById('lightbox-img');
+  const cnt = document.getElementById('lightbox-counter');
+  const prv = document.getElementById('lightbox-prev');
+  const nxt = document.getElementById('lightbox-next');
   if (!lb || !img) return;
-  img.src = src;
+  img.src = _lbGallery[_lbIndex];
+  if (cnt) cnt.textContent = (_lbGallery.length > 1) ? (_lbIndex + 1) + ' / ' + _lbGallery.length : '';
+  if (prv) prv.style.display = _lbGallery.length > 1 ? '' : 'none';
+  if (nxt) nxt.style.display = _lbGallery.length > 1 ? '' : 'none';
   lb.classList.add('open');
   document.body.style.overflow = 'hidden';
 }
+
+function lbPrev() { if (_lbGallery.length > 1) { _lbIndex = (_lbIndex - 1 + _lbGallery.length) % _lbGallery.length; _renderLightbox(); } }
+function lbNext() { if (_lbGallery.length > 1) { _lbIndex = (_lbIndex + 1) % _lbGallery.length; _renderLightbox(); } }
 
 function closeLightbox() {
   const lb = document.getElementById('lightbox');
@@ -464,7 +589,9 @@ function initLightbox() {
     if (e.target === lb) closeLightbox();
   });
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'Escape')       closeLightbox();
+    if (e.key === 'ArrowLeft')    lbPrev();
+    if (e.key === 'ArrowRight')   lbNext();
   });
 }
 
