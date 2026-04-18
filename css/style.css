@@ -1069,8 +1069,8 @@ p { margin-bottom: 1rem; }
 }
 
 .mvv-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: var(--bg-card);
+  border: 1px solid #d1d5db;
   border-radius: 12px;
   padding: 2rem;
   display: flex;
@@ -1087,12 +1087,12 @@ p { margin-bottom: 1rem; }
 .mvv-card__title {
   font-size: 1.15rem;
   font-weight: 700;
-  color: var(--text-light);
+  color: var(--text-primary);
   margin: 0;
 }
 
 .mvv-card__text {
-  color: var(--text-muted);
+  color: var(--text-primary);
   line-height: 1.7;
   margin: 0;
 }
@@ -1104,12 +1104,12 @@ p { margin-bottom: 1rem; }
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
-  color: var(--text-muted);
+  color: var(--text-primary);
   line-height: 1.6;
 }
 
 .mvv-card__values li strong {
-  color: var(--text-light);
+  color: var(--text-primary);
 }
 
 @media (max-width: 900px) {
