@@ -31,12 +31,23 @@ rsync -av --progress \
   --exclude='generate_pdf.py' \
   --exclude='update_en_logos.py' \
   --exclude='deploy.sh' \
+  --exclude='seo_upgrade.py' \
   --exclude='uploads/*' \
   . "$DEST/"
 
 # Ricrea la cartella uploads vuota con solo il .htaccess
 mkdir -p "$DEST/uploads"
 cp uploads/.htaccess "$DEST/uploads/.htaccess"
+
+# Cache busting: aggiorna ?v= con la data odierna in tutti gli HTML del deploy
+VERSION=$(date +%Y%m%d)
+echo "Cache busting → versione $VERSION..."
+find "$DEST" -name "*.html" | while read f; do
+  LC_ALL=C sed -i '' \
+    -e "s|css/style\.css?v=[0-9]*\"|css/style.css?v=$VERSION\"|g" \
+    -e "s|js/main\.js?v=[0-9]*\"|js/main.js?v=$VERSION\"|g" \
+    "$f"
+done
 
 echo ""
 echo "✓ Deploy pronto in: $DEST"
