@@ -522,11 +522,6 @@ function getImagePrefix() {
     const desc = lang === 'en' ? eq.description_en : eq.description_it;
     var imgPath = eq.image ? prefix + eq.image : '';
     return '<div class="equip-card reveal">' +
-      '<div class="equip-card__img placeholder img-placeholder" style="height:180px">' +
-        (imgPath
-          ? '<img src="' + imgPath + '" alt="' + name + '" style="width:100%;height:180px;object-fit:cover;" onerror="this.parentElement.innerHTML=\'<span>Foto in arrivo</span>\'">'
-          : '<span>Foto in arrivo</span>') +
-      '</div>' +
       '<div class="equip-card__body">' +
         '<p class="equip-card__cat">' + eq.category + '</p>' +
         '<h3 class="equip-card__name">' + name + '</h3>' +
