@@ -1,6 +1,6 @@
 # ROADMAP — Evolution Engineering & Services S.r.l.
 **Sito:** [evolutionengineering.eu](https://evolutionengineering.eu)  
-**Ultimo aggiornamento:** 2026-04-15  
+**Ultimo aggiornamento:** 2026-04-18  
 **Autore revisione:** Claude Code + Team Dev
 
 ---
@@ -267,8 +267,8 @@ Questo tipo di contenuto attira traffico organico qualificato e posiziona Evolut
 | 1.1 | Foto stabilimento e team in "Chi Siamo" | Fotografi + Dev | [ ] Da fare |
 | 1.2 | Aggiungere WhatsApp Business button fisso | Dev | [ ] Da fare |
 | 1.3 | Sezione "Perché Evolution" in homepage (5 punti) | Dev + Copywriter | [ ] Da fare |
-| 1.4 | Compressione immagini portfolio in WebP + lazy load | Dev | [ ] Da fare |
-| 1.5 | Aggiornare meta description di tutte le pagine | Dev | [ ] Da fare |
+| 1.4 | lazy loading immagini portfolio (loading="lazy") | Dev | [x] Fatto — 2026-04-18 |
+| 1.5 | Meta description, keywords, OG, Twitter Card, JSON-LD | Dev | [x] Fatto — 2026-04-18 |
 | 1.6 | Ottimizzare Google My Business con foto e categorie | Marketing | [ ] Da fare |
 
 ### Fase 2 — Contenuto Strategico (30–90 giorni)
@@ -279,7 +279,7 @@ Questo tipo di contenuto attira traffico organico qualificato e posiziona Evolut
 | 2.1 | Produrre Company Profile PDF scaricabile (4–6 pag.) | Grafica + Direzione | [ ] Da fare |
 | 2.2 | Ristrutturare 8 progetti portfolio come case study | Copywriter + Dev | [ ] Da fare |
 | 2.3 | Aggiungere sezione loghi clienti / testimonial | Commerciale + Dev | [ ] Da fare |
-| 2.4 | Aggiungere dati strutturati JSON-LD (LocalBusiness) | Dev | [ ] Da fare |
+| 2.4 | Dati strutturati JSON-LD (Organization + BreadcrumbList) | Dev | [x] Fatto — 2026-04-18 |
 | 2.5 | Collegare LinkedIn aziendale e aggiornarlo | Marketing | [ ] Da fare |
 
 ### Fase 3 — Espansione Strutturale (90–180 giorni)
@@ -312,13 +312,57 @@ Questo tipo di contenuto attira traffico organico qualificato e posiziona Evolut
 
 ---
 
-### 2026-04-18
+### 2026-04-18 — SEO Level 1 + Cache Busting + Deploy Aruba
+
+**SEO tecnico (tutte e 12 le pagine):**
+- `robots.txt` creato con regole crawler e link sitemap
+- `sitemap.xml` lastmod aggiornato a 2026-04-18
+- Meta keywords specifici per settore su ogni pagina
+- Open Graph completo (og:title, og:description, og:image, og:url, og:locale)
+- Twitter Card su tutte le pagine
+- hreflang IT↔EN su ogni pagina
+- JSON-LD strutturato: `Organization` sulle homepage, `BreadcrumbList` sulle pagine interne
+- `<script defer>` su tutti i tag script
+- `loading="lazy"` sulle immagini portfolio generate dinamicamente da main.js
+
+**Cache Busting:**
+- `.htaccess`: HTML servita con `Cache-Control: no-cache, must-revalidate` (aggiornamenti immediati per gli utenti)
+- CSS e JS con cache 1 anno + query string `?v=20260418` per forzare ricaricamento dopo ogni deploy
+- `deploy.sh` aggiornato: aggiorna automaticamente il numero `?v=` con la data del deploy
+
+**Deploy e infrastruttura:**
+- `deploy.sh` esclude anche `seo_upgrade.py` dalla cartella Aruba
+- Cartella `../Evolution_Site_Deploy/` rigenerata e pronta per upload
+
+**Documentazione:**
+- `README.md` riscritto completamente: riflette stack reale (Aruba, PHP, SITE_DATA in main.js, workflow git, cache busting, SEO, sicurezza)
+- `ROADMAP.md` aggiornato
+
+---
+
+### 2026-04-18 — Sicurezza e Deploy Aruba
+- `.htaccess` creato: `Options -Indexes`, blocco file interni, charset UTF-8, cache headers
+- `deploy.sh` creato: rsync con esclusioni per cartella deploy pulita
+- `uploads/.htaccess` creato per blocco accesso diretto agli allegati
+
+---
+
+### 2026-04-18 — Hero image + fix language switch
 - Aggiunta immagine hero industriale (officina con ingranaggi) come background della hero section (`images/hero-bg.png`)
 - Overlay gradient navy→trasparente per leggibilità testo su sfondo fotografico
 - Vignetta bottom per transizione morbida verso sezioni successive
 - Attiva su entrambe le versioni IT e EN (CSS condiviso)
 - Corretta estensione file da `.jpg` a `.png` dopo salvataggio utente
 - **Fix bug:** switch lingua IT↔EN dalla homepage apriva pagina vuota — percorsi relativi `../en/index.html` e `../../index.html` errati, corretti in `en/index.html` e `../index.html`
+
+### 2026-04-18 — Aggiornamento da GitHub (altro PC) — 7 commit, 94 file
+**Contenuti aggiornati (modifiche significative):**
+- `pages/servizi.html` e `en/pages/services.html`: servizi completamente riscritti — ora riflettono i settori reali: Carpenteria Metallica Pesante, Piping Industriale, Settore Navale, Coibentazione Industriale, Installazioni Speciali
+- `js/main.js`: portfolio aggiornato con progetti reali (MINE S.p.A., Ospedale San Cataldo, Acciaierie d'Italia / ex ILVA, Marina Militare Italiana, Benetti Yachts, ecc.) e gallerie per ogni commessa
+- `images/portfolio/`: immagini riorganizzate in sottocartelle per commessa (`commessa-1` → `commessa-15`); aggiunte nuove foto per commesse 2, 3, 4, 6, 7, 8, 11, 13, 14, 15
+- `index.html` e `en/index.html`: aggiornati testi "Chi Siamo" con sede reale (Crispiano, TA), superficie 3.000 m² coperti + 25.000 m² piazzali attrezzati, 40+ anni di esperienza
+- `css/style.css`: aggiornamenti stile
+- `pages/attrezzature.html`, `pages/portfolio.html`: aggiornamenti minori
 
 ### 2026-04-18 — Allineamento completo IT→EN (italiano come master)
 **Principio:** Italiano è il sito master; inglese allineato struttura e contenuto.
