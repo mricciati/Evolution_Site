@@ -282,12 +282,6 @@ var SITE_DATA = {
       specs: "Forza: 115 T", image: "",
       description_it: "Punzonatrice oliodinamica con forza di 115 tonnellate per operazioni di punzonatura, stampaggio e tranciatura su lamiere e piastre.",
       description_en: "Hydraulic punching machine with 115-tonne force for punching, stamping and blanking operations on sheets and plates."
-    },
-    {
-      id: 14, name_it: "Laboratorio NDT", name_en: "NDT Laboratory", category: "controlli",
-      specs: "RT, UT, PT, MT, VT | Certificazione EN ISO 9712 Lev. 2-3", image: "",
-      description_it: "Laboratorio interno NDT con personale certificato EN ISO 9712 per controlli radiografici (RT), ultrasonici (UT), liquidi penetranti (PT), particelle magnetiche (MT) e visivi (VT).",
-      description_en: "In-house NDT lab with EN ISO 9712 certified personnel for radiographic (RT), ultrasonic (UT), penetrant (PT), magnetic particle (MT) and visual (VT) testing."
     }
   ]
 };
