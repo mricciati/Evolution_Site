@@ -426,7 +426,7 @@ function getImagePrefix() {
       '<div class="project-card__img placeholder img-placeholder" style="cursor:pointer;height:220px;position:relative"' +
         (gallery.length ? ' onclick="openGallery(' + galleryJS.replace(/"/g, '&quot;') + ',0)"' : '') + '>' +
         (imgSrc
-          ? '<img src="' + imgSrc + '" alt="' + title + '" style="width:100%;height:220px;object-fit:cover;" onerror="this.parentElement.innerHTML=\'<span>Foto in arrivo</span>\'">'
+          ? '<img src=\"' + imgSrc + '\" loading=\"lazy\" alt=\"' + title + '\" style=\"width:100%;height:220px;object-fit:cover;\" onerror="this.parentElement.innerHTML=\'<span>Foto in arrivo</span>\'">'
           : '<span>Foto in arrivo</span>') +
         photoCount +
       '</div>' +
@@ -478,7 +478,7 @@ function getImagePrefix() {
     return '<article class="project-card reveal">' +
       '<div class="project-card__img placeholder img-placeholder" style="height:220px">' +
         (imgPath
-          ? '<img src="' + imgPath + '" alt="' + title + '" style="width:100%;height:220px;object-fit:cover;" onerror="this.parentElement.innerHTML=\'<span>Foto in arrivo</span>\'">'
+          ? '<img src=\"' + imgPath + '\" loading=\"lazy\" alt=\"' + title + '\" style=\"width:100%;height:220px;object-fit:cover;\" onerror="this.parentElement.innerHTML=\'<span>Foto in arrivo</span>\'">'
           : '<span>Foto in arrivo</span>') +
       '</div>' +
       '<div class="project-card__body">' +

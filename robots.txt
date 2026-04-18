@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Disallow: /uploads/
+Disallow: /.git/
+Disallow: /.claude/
+Disallow: /Foto Fonti/
+Disallow: /docx_build/
+Disallow: /send-email.php
+Disallow: /download.php
+
+Sitemap: https://www.evolutionengineering.eu/sitemap.xml
