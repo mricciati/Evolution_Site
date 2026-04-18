@@ -250,7 +250,7 @@ function getImagePrefix() {
         const path = window.location.pathname;
         const fileName = path.split('/').pop() || 'index.html';
         const enMap = {
-          'index.html':          '../en/index.html',
+          'index.html':          'en/index.html',
           'servizi.html':        '../en/pages/services.html',
           'portfolio.html':      '../en/pages/portfolio.html',
           'attrezzature.html':   '../en/pages/equipment.html',
@@ -262,7 +262,7 @@ function getImagePrefix() {
         const path = window.location.pathname;
         const fileName = path.split('/').pop() || 'index.html';
         const itMap = {
-          'index.html':          '../../index.html',
+          'index.html':          '../index.html',
           'services.html':       '../../pages/servizi.html',
           'portfolio.html':      '../../pages/portfolio.html',
           'equipment.html':      '../../pages/attrezzature.html',
